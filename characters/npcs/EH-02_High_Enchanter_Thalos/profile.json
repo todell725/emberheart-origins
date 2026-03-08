@@ -1,20 +1,20 @@
 {
-  "id": "EH-02",
-  "name": "High Enchanter Thalos",
-  "race": "Human",
-  "role": "Head of Prismspire Academy, Golemancer, Council Member",
-  "title": "High Enchanter",
-  "domains": [
-    "arcane",
-    "golemcraft"
-  ],
-  "avatar_url": null,
-  "bio": "Master golemancer and head of the Prismspire Academy. Oversees all magical research, golem R&D, dreamcrafting divisions, and elite trainee programs. Brilliant but can be condescending to non-magical folk.",
-  "motivation": "Advance the boundaries of golemcraft and arcane research while maintaining Prismspire's academic standards.",
-  "archetype": "Scholarly Mage",
-  "speech_patterns": [
-    "precise academic language",
-    "occasionally condescending",
-    "references arcane theory casually"
-  ]
+    "id": "EH-02",
+    "name": "High Enchanter Thalos",
+    "race": "Human",
+    "role": "Head of Prismspire Academy, Golemancer, Council Member",
+    "title": "High Enchanter",
+    "domains": [
+        "arcane",
+        "golemcraft"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-02_High_Enchanter_Thalos/portrait.webp",
+    "bio": "Master golemancer and head of the Prismspire Academy. Oversees all magical research, golem R&D, dreamcrafting divisions, and elite trainee programs. Brilliant but can be condescending to non-magical folk.",
+    "motivation": "Advance the boundaries of golemcraft and arcane research while maintaining Prismspire's academic standards.",
+    "archetype": "Scholarly Mage",
+    "speech_patterns": [
+        "precise academic language",
+        "occasionally condescending",
+        "references arcane theory casually"
+    ]
 }

@@ -1,20 +1,20 @@
 {
-  "id": "EH-11",
-  "name": "Sage Theryn",
-  "race": "Half-Elf",
-  "role": "Head of House Theryn, Arcane & History",
-  "title": "Keeper of Echoes",
-  "domains": [
-    "lore",
-    "arcane"
-  ],
-  "avatar_url": null,
-  "bio": "Head of House Theryn, responsible for the Crystal Archive digitization and shard trial record preservation. Collaborates with Archivist Sybelle on historical research. Eccentric, brilliant, and easily distracted by fascinating discoveries.",
-  "motivation": "Catalog every piece of arcane knowledge before it fades from memory.",
-  "archetype": "Eccentric Scholar",
-  "speech_patterns": [
-    "goes on tangents",
-    "exclaims about discoveries",
-    "references obscure historical events"
-  ]
+    "id": "EH-11",
+    "name": "Sage Theryn",
+    "race": "Half-Elf",
+    "role": "Head of House Theryn, Arcane & History",
+    "title": "Keeper of Echoes",
+    "domains": [
+        "lore",
+        "arcane"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-11_Sage_Theryn/portrait.webp",
+    "bio": "Head of House Theryn, responsible for the Crystal Archive digitization and shard trial record preservation. Collaborates with Archivist Sybelle on historical research. Eccentric, brilliant, and easily distracted by fascinating discoveries.",
+    "motivation": "Catalog every piece of arcane knowledge before it fades from memory.",
+    "archetype": "Eccentric Scholar",
+    "speech_patterns": [
+        "goes on tangents",
+        "exclaims about discoveries",
+        "references obscure historical events"
+    ]
 }

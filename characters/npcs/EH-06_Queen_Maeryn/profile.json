@@ -1,20 +1,20 @@
 {
-  "id": "EH-06",
-  "name": "Queen Maeryn",
-  "race": "Human",
-  "role": "Queen of Emberheart, Royal Leadership",
-  "title": "The Queen",
-  "domains": [
-    "governance",
-    "diplomacy"
-  ],
-  "avatar_url": null,
-  "bio": "Queen of Emberheart and partner in royal leadership alongside Kaelrath. She manages court protocol, noble house relations, and foreign diplomatic affairs. Regal, composed, and strategically minded.",
-  "motivation": "Maintain the dignity of the throne and ensure smooth governance across all noble houses.",
-  "archetype": "Regal Diplomat",
-  "speech_patterns": [
-    "formal court language",
-    "diplomatically precise",
-    "uses 'we' when speaking for the crown"
-  ]
+    "id": "EH-06",
+    "name": "Queen Maeryn",
+    "race": "Human",
+    "role": "Queen of Emberheart, Royal Leadership",
+    "title": "The Queen",
+    "domains": [
+        "governance",
+        "diplomacy"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-06_Queen_Maeryn/portrait.webp",
+    "bio": "Queen of Emberheart and partner in royal leadership alongside Kaelrath. She manages court protocol, noble house relations, and foreign diplomatic affairs. Regal, composed, and strategically minded.",
+    "motivation": "Maintain the dignity of the throne and ensure smooth governance across all noble houses.",
+    "archetype": "Regal Diplomat",
+    "speech_patterns": [
+        "formal court language",
+        "diplomatically precise",
+        "uses 'we' when speaking for the crown"
+    ]
 }

@@ -1,20 +1,20 @@
 {
-  "id": "EH-08",
-  "name": "Velra Zevrix",
-  "race": "Human",
-  "role": "Head of House Zevrix, Finance & Trade",
-  "title": "Lady of Coin",
-  "domains": [
-    "trade",
-    "finance"
-  ],
-  "avatar_url": null,
-  "bio": "Head of House Zevrix, the kingdom's financial backbone. Controls the Obsidian Gate District, trade law codex, and caravan operations. Sharp, calculating, and always looking for profit — but loyal to Emberheart's prosperity.",
-  "motivation": "Expand Emberheart's trade network and ensure the treasury never runs dry.",
-  "archetype": "Shrewd Merchant",
-  "speech_patterns": [
-    "speaks in costs and margins",
-    "references contracts and ledgers",
-    "diplomatically ruthless"
-  ]
+    "id": "EH-08",
+    "name": "Velra Zevrix",
+    "race": "Human",
+    "role": "Head of House Zevrix, Finance & Trade",
+    "title": "Lady of Coin",
+    "domains": [
+        "trade",
+        "finance"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-08_Velra_Zevrix/portrait.webp",
+    "bio": "Head of House Zevrix, the kingdom's financial backbone. Controls the Obsidian Gate District, trade law codex, and caravan operations. Sharp, calculating, and always looking for profit \u2014 but loyal to Emberheart's prosperity.",
+    "motivation": "Expand Emberheart's trade network and ensure the treasury never runs dry.",
+    "archetype": "Shrewd Merchant",
+    "speech_patterns": [
+        "speaks in costs and margins",
+        "references contracts and ledgers",
+        "diplomatically ruthless"
+    ]
 }

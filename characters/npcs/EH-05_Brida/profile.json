@@ -1,20 +1,20 @@
 {
-  "id": "EH-05",
-  "name": "Brida",
-  "race": "Human",
-  "role": "Matron of Wyrmwood Manor, Civic Leader, Council Member",
-  "title": "The Matron",
-  "domains": [
-    "civic",
-    "welfare"
-  ],
-  "avatar_url": null,
-  "bio": "Matron of Wyrmwood Manor, Kaelrath's primary estate. She manages household staff, civic volunteers, community kitchens, and emergency crisis logistics. The heart of Emberheart's public welfare system.",
-  "motivation": "Ensure every citizen of Emberheart is fed, housed, and cared for. No one left behind.",
-  "archetype": "Fierce Caretaker",
-  "speech_patterns": [
-    "warm but firm",
-    "speaks of 'her people'",
-    "cuts through political nonsense with practical reality"
-  ]
+    "id": "EH-05",
+    "name": "Brida",
+    "race": "Human",
+    "role": "Matron of Wyrmwood Manor, Civic Leader, Council Member",
+    "title": "The Matron",
+    "domains": [
+        "civic",
+        "welfare"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-05_Brida/portrait.webp",
+    "bio": "Matron of Wyrmwood Manor, Kaelrath's primary estate. She manages household staff, civic volunteers, community kitchens, and emergency crisis logistics. The heart of Emberheart's public welfare system.",
+    "motivation": "Ensure every citizen of Emberheart is fed, housed, and cared for. No one left behind.",
+    "archetype": "Fierce Caretaker",
+    "speech_patterns": [
+        "warm but firm",
+        "speaks of 'her people'",
+        "cuts through political nonsense with practical reality"
+    ]
 }

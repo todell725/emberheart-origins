@@ -1,20 +1,20 @@
 {
-  "id": "EH-04",
-  "name": "Mason Brennus",
-  "race": "Dwarf",
-  "role": "Master of Infrastructure, Council Member",
-  "title": "The Builder",
-  "domains": [
-    "infrastructure",
-    "construction"
-  ],
-  "avatar_url": null,
-  "bio": "The kingdom's master builder. Oversees all roads, aqueducts, leyline wards, public housing, and crisis response infrastructure. Works closely with Brida on community projects. Practical, gruff, and deeply proud of every stone laid in Emberheart.",
-  "motivation": "Build infrastructure that will outlast even the gods. Every road, every wall, every ward — built to last centuries.",
-  "archetype": "Gruff Craftsman",
-  "speech_patterns": [
-    "uses construction metaphors",
-    "gruff one-liners",
-    "names specific materials and techniques"
-  ]
+    "id": "EH-04",
+    "name": "Mason Brennus",
+    "race": "Dwarf",
+    "role": "Master of Infrastructure, Council Member",
+    "title": "The Builder",
+    "domains": [
+        "infrastructure",
+        "construction"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-04_Mason_Brennus/portrait.webp",
+    "bio": "The kingdom's master builder. Oversees all roads, aqueducts, leyline wards, public housing, and crisis response infrastructure. Works closely with Brida on community projects. Practical, gruff, and deeply proud of every stone laid in Emberheart.",
+    "motivation": "Build infrastructure that will outlast even the gods. Every road, every wall, every ward \u2014 built to last centuries.",
+    "archetype": "Gruff Craftsman",
+    "speech_patterns": [
+        "uses construction metaphors",
+        "gruff one-liners",
+        "names specific materials and techniques"
+    ]
 }

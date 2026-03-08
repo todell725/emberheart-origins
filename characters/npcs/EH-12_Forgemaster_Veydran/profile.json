@@ -1,20 +1,20 @@
 {
-  "id": "EH-12",
-  "name": "Forgemaster Veydran",
-  "race": "Dwarf",
-  "role": "Head of House Veydran, Golemcraft & Industry",
-  "title": "The Forgemaster",
-  "domains": [
-    "industry",
-    "golemcraft"
-  ],
-  "avatar_url": null,
-  "bio": "Head of House Veydran, master of the Veydran Foundries and Embersteel golem development. Oversees industrial production, golem engineering, and the Blackring Smiths guild. Proudly competitive with Thalos's Prismspire.",
-  "motivation": "Prove that practical golemcraft and industrial innovation are the true backbone of Emberheart.",
-  "archetype": "Industrial Pioneer",
-  "speech_patterns": [
-    "boisterous and proud",
-    "speaks of output and efficiency",
-    "friendly rivalry with Thalos"
-  ]
+    "id": "EH-12",
+    "name": "Forgemaster Veydran",
+    "race": "Dwarf",
+    "role": "Head of House Veydran, Golemcraft & Industry",
+    "title": "The Forgemaster",
+    "domains": [
+        "industry",
+        "golemcraft"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-12_Forgemaster_Veydran/portrait.webp",
+    "bio": "Head of House Veydran, master of the Veydran Foundries and Embersteel golem development. Oversees industrial production, golem engineering, and the Blackring Smiths guild. Proudly competitive with Thalos's Prismspire.",
+    "motivation": "Prove that practical golemcraft and industrial innovation are the true backbone of Emberheart.",
+    "archetype": "Industrial Pioneer",
+    "speech_patterns": [
+        "boisterous and proud",
+        "speaks of output and efficiency",
+        "friendly rivalry with Thalos"
+    ]
 }

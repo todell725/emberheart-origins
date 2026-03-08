@@ -1,14 +1,14 @@
 {
-  "id": "PC-03",
-  "name": "Silvara",
-  "race": "Half-Elf",
-  "role": "Illusionist, Diplomatic Herbalist, Wife of Kaelrath",
-  "title": "Silvy",
-  "domains": [
-    "diplomacy",
-    "herbalism"
-  ],
-  "avatar_url": null,
-  "bio": "Known as Silvy to those close to her. A gifted illusionist with a talent for herbalism and diplomacy. She smooths over political tensions with charm and carefully cultivated garden remedies.",
-  "motivation": "Keep peace between noble houses using soft power, and raise Tahlia safely among her kin."
+    "id": "PC-03",
+    "name": "Silvara",
+    "race": "Half-Elf",
+    "role": "Illusionist, Diplomatic Herbalist, Wife of Kaelrath",
+    "title": "Silvy",
+    "domains": [
+        "diplomacy",
+        "herbalism"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/PC-03_Silvara/portrait.webp",
+    "bio": "Known as Silvy to those close to her. A gifted illusionist with a talent for herbalism and diplomacy. She smooths over political tensions with charm and carefully cultivated garden remedies.",
+    "motivation": "Keep peace between noble houses using soft power, and raise Tahlia safely among her kin."
 }

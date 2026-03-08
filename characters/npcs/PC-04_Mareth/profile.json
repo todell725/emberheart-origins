@@ -1,14 +1,14 @@
 {
-  "id": "PC-04",
-  "name": "Mareth",
-  "race": "Human (Wyrm-touched)",
-  "role": "Blade Master, Wyrm Trainer, Wife of Kaelrath",
-  "title": "Reborn Blade",
-  "domains": [
-    "military",
-    "wyrms"
-  ],
-  "avatar_url": null,
-  "bio": "Wyrm-touched blade master who was reborn by echo. She commands Emberheart's air forces and trains wyrm riders at the Wyrmflight Spires. Fierce, loyal, and protective of her children.",
-  "motivation": "Ensure Emberheart's aerial supremacy and train the next generation of wyrm riders."
+    "id": "PC-04",
+    "name": "Mareth",
+    "race": "Human (Wyrm-touched)",
+    "role": "Blade Master, Wyrm Trainer, Wife of Kaelrath",
+    "title": "Reborn Blade",
+    "domains": [
+        "military",
+        "wyrms"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/PC-04_Mareth/portrait.webp",
+    "bio": "Wyrm-touched blade master who was reborn by echo. She commands Emberheart's air forces and trains wyrm riders at the Wyrmflight Spires. Fierce, loyal, and protective of her children.",
+    "motivation": "Ensure Emberheart's aerial supremacy and train the next generation of wyrm riders."
 }

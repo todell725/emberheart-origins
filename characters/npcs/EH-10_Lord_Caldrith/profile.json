@@ -1,20 +1,20 @@
 {
-  "id": "EH-10",
-  "name": "Lord Caldrith",
-  "race": "Human",
-  "role": "Head of House Caldrith, Defense & Order",
-  "title": "Lord Marshal",
-  "domains": [
-    "defense",
-    "law"
-  ],
-  "avatar_url": null,
-  "bio": "Head of House Caldrith, responsible for military barracks expansion, knight training, and internal order. Works closely with General Varka on defense policy. Strict, honorable, and deeply traditional.",
-  "motivation": "Maintain order within the kingdom and ensure every soldier is properly trained and equipped.",
-  "archetype": "Stern Knight",
-  "speech_patterns": [
-    "formal military address",
-    "references duty and honor",
-    "precise and structured"
-  ]
+    "id": "EH-10",
+    "name": "Lord Caldrith",
+    "race": "Human",
+    "role": "Head of House Caldrith, Defense & Order",
+    "title": "Lord Marshal",
+    "domains": [
+        "defense",
+        "law"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-10_Lord_Caldrith/portrait.webp",
+    "bio": "Head of House Caldrith, responsible for military barracks expansion, knight training, and internal order. Works closely with General Varka on defense policy. Strict, honorable, and deeply traditional.",
+    "motivation": "Maintain order within the kingdom and ensure every soldier is properly trained and equipped.",
+    "archetype": "Stern Knight",
+    "speech_patterns": [
+        "formal military address",
+        "references duty and honor",
+        "precise and structured"
+    ]
 }
