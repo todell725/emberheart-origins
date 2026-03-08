@@ -1,0 +1,271 @@
+[
+    {
+        "task_id": "HUNT_001",
+        "node_name": "Emberfield Hare",
+        "difficulty": "Very Easy",
+        "description": "Swift hares that dart between the rows of Shardgrain and Emberroot in the Agricultural Belt. Their meat is tender and prized in Emberheart's communal kitchens.",
+        "requirements": {
+            "min_level": 1,
+            "hunting_skill_level": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 15,
+            "xp_per_kill": 5,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Hare Meat",
+                "type": "Meat",
+                "chance": 0.95
+            },
+            {
+                "item": "Hare Pelt",
+                "type": "Hide",
+                "chance": 0.70
+            },
+            {
+                "item": "Lucky Hare's Foot",
+                "type": "Trophy",
+                "chance": 0.03
+            }
+        ]
+    },
+    {
+        "task_id": "HUNT_002",
+        "node_name": "Flame Stag",
+        "difficulty": "Easy",
+        "description": "Majestic deer with ember-colored antlers that roam the Outer Grove Districts. Their antlers shed sparks during the autumn rut and are sought after by alchemists.",
+        "requirements": {
+            "min_level": 3,
+            "hunting_skill_level": 3
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 45,
+            "xp_per_kill": 22,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Venison",
+                "type": "Meat",
+                "chance": 0.85
+            },
+            {
+                "item": "Stag Hide",
+                "type": "Hide",
+                "chance": 0.70
+            },
+            {
+                "item": "Ember Antler",
+                "type": "Alchemy",
+                "chance": 0.30
+            },
+            {
+                "item": "Stag Heart",
+                "type": "Trophy",
+                "chance": 0.08
+            }
+        ]
+    },
+    {
+        "task_id": "HUNT_003",
+        "node_name": "Shard-Mutated Boar",
+        "difficulty": "Medium",
+        "description": "Aggressive boars twisted by residual shard-energy near the old breach zones. Their tusks glow faintly and their hides are unnaturally tough. Dangerous but rewarding quarry.",
+        "requirements": {
+            "min_level": 5,
+            "hunting_skill_level": 5
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 70,
+            "xp_per_kill": 35,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Boar Meat",
+                "type": "Meat",
+                "chance": 0.80
+            },
+            {
+                "item": "Shard-Touched Hide",
+                "type": "Hide",
+                "chance": 0.65
+            },
+            {
+                "item": "Glowing Tusk",
+                "type": "Trophy",
+                "chance": 0.25
+            },
+            {
+                "item": "Shard Fragment",
+                "type": "Resource",
+                "chance": 0.12
+            }
+        ]
+    },
+    {
+        "task_id": "HUNT_004",
+        "node_name": "Wild Wyrmling",
+        "difficulty": "Hard",
+        "description": "Juvenile wyrms that escaped the Wyrmflight Spires roost in the high crags beyond the city walls. Fast, vicious, and fire-breathing. Only experienced hunters survive an encounter.",
+        "requirements": {
+            "min_level": 7,
+            "hunting_skill_level": 7
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 100,
+            "xp_per_kill": 55,
+            "max_drops_per_kill": 4
+        },
+        "drop_table": [
+            {
+                "item": "Wyrmling Meat",
+                "type": "Meat",
+                "chance": 0.70
+            },
+            {
+                "item": "Wyrmling Scale",
+                "type": "Hide",
+                "chance": 0.65
+            },
+            {
+                "item": "Wyrmling Fang",
+                "type": "Trophy",
+                "chance": 0.30
+            },
+            {
+                "item": "Fire Gland",
+                "type": "Alchemy",
+                "chance": 0.15
+            },
+            {
+                "item": "Wyrm Egg Fragment",
+                "type": "Treasure",
+                "chance": 0.05
+            }
+        ]
+    },
+    {
+        "task_id": "HUNT_005",
+        "node_name": "Dream-Stalker Wolf",
+        "difficulty": "Hard",
+        "description": "Wolves touched by the Dream domain that phase in and out of visibility. They haunt the Enchanted Groves at twilight. Their pelts shift color like the aurora.",
+        "requirements": {
+            "min_level": 8,
+            "hunting_skill_level": 8
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 110,
+            "xp_per_kill": 60,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Dream Wolf Meat",
+                "type": "Meat",
+                "chance": 0.70
+            },
+            {
+                "item": "Phase Pelt",
+                "type": "Hide",
+                "chance": 0.60
+            },
+            {
+                "item": "Dream Fang",
+                "type": "Trophy",
+                "chance": 0.25
+            },
+            {
+                "item": "Phase Crystal",
+                "type": "Gem",
+                "chance": 0.10
+            }
+        ]
+    },
+    {
+        "task_id": "HUNT_006",
+        "node_name": "Echo Elk",
+        "difficulty": "Very Hard",
+        "description": "Massive elk that appear near sites of divine significance. Their calls echo through the Memory domain, summoning fragments of past events. Considered sacred by the Cult of the Flamekeeper.",
+        "requirements": {
+            "min_level": 9,
+            "hunting_skill_level": 9
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 130,
+            "xp_per_kill": 75,
+            "max_drops_per_kill": 4
+        },
+        "drop_table": [
+            {
+                "item": "Echo Elk Loin",
+                "type": "Meat",
+                "chance": 0.65
+            },
+            {
+                "item": "Memory-Touched Hide",
+                "type": "Hide",
+                "chance": 0.55
+            },
+            {
+                "item": "Resonant Antler",
+                "type": "Trophy",
+                "chance": 0.30
+            },
+            {
+                "item": "Echo Fragment",
+                "type": "Resource",
+                "chance": 0.15
+            },
+            {
+                "item": "Memory Amber",
+                "type": "Gem",
+                "chance": 0.05
+            }
+        ]
+    },
+    {
+        "task_id": "HUNT_007",
+        "node_name": "Ancient Wyrm",
+        "difficulty": "Legendary",
+        "description": "Elder wyrms that nest in the volcanic crags beyond the Ashwake Caravan Spine. These immense creatures are the ancestors of Emberheart's domesticated wyrm stock. Only Kaelrath has ever faced one alone.",
+        "requirements": {
+            "min_level": 10,
+            "hunting_skill_level": 10
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 200,
+            "xp_per_kill": 120,
+            "max_drops_per_kill": 5
+        },
+        "drop_table": [
+            {
+                "item": "Ancient Wyrm Steak",
+                "type": "Meat",
+                "chance": 0.60
+            },
+            {
+                "item": "Wyrm Dragon Scale",
+                "type": "Hide",
+                "chance": 0.55
+            },
+            {
+                "item": "Wyrm Heart",
+                "type": "Trophy",
+                "chance": 0.20
+            },
+            {
+                "item": "Dragonfire Gland",
+                "type": "Alchemy",
+                "chance": 0.15
+            },
+            {
+                "item": "Wyrm Sovereign Claw",
+                "type": "Divine",
+                "chance": 0.05
+            }
+        ]
+    }
+]

@@ -1,0 +1,276 @@
+[
+    {
+        "task_id": "FISH_001",
+        "node_name": "Emberlake Shallows",
+        "difficulty": "Very Easy",
+        "description": "Warm, shallow waters along the Emberlake shore near the Flamepier Docks. Small fish gather where the leyline warmth meets the surface.",
+        "requirements": {
+            "min_level": 1,
+            "fishing_skill_level": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 15,
+            "xp_per_kill": 5,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Ember Minnow",
+                "type": "Fish",
+                "chance": 0.95
+            },
+            {
+                "item": "Lakeweed",
+                "type": "Crafting",
+                "chance": 0.50
+            },
+            {
+                "item": "Warm Pebble",
+                "type": "Resource",
+                "chance": 0.15
+            },
+            {
+                "item": "Lost Sigil Ring",
+                "type": "Treasure",
+                "chance": 0.02
+            }
+        ]
+    },
+    {
+        "task_id": "FISH_002",
+        "node_name": "River Bend (Bloomshade)",
+        "difficulty": "Easy",
+        "description": "Where the river curves through the Bloomshade District, enchanted flora droops over the water and druid-blessed fish swim in crystal-clear currents.",
+        "requirements": {
+            "min_level": 2,
+            "fishing_skill_level": 2
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 30,
+            "xp_per_kill": 12,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Bloomshade Trout",
+                "type": "Fish",
+                "chance": 0.85
+            },
+            {
+                "item": "Shimmerscale Perch",
+                "type": "Fish",
+                "chance": 0.60
+            },
+            {
+                "item": "Silent Bloom Root",
+                "type": "Alchemy",
+                "chance": 0.30
+            },
+            {
+                "item": "Druidic Pearl",
+                "type": "Gem",
+                "chance": 0.05
+            }
+        ]
+    },
+    {
+        "task_id": "FISH_003",
+        "node_name": "Deep Emberlake",
+        "difficulty": "Medium",
+        "description": "The deeper waters of Emberlake, where the heat of submerged leylines creates unique thermal currents. Large, powerful fish patrol these depths.",
+        "requirements": {
+            "min_level": 4,
+            "fishing_skill_level": 4
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 60,
+            "xp_per_kill": 28,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Emberlake Sturgeon",
+                "type": "Fish",
+                "chance": 0.80
+            },
+            {
+                "item": "Fire-Bellied Catfish",
+                "type": "Fish",
+                "chance": 0.65
+            },
+            {
+                "item": "Thermal Kelp",
+                "type": "Alchemy",
+                "chance": 0.40
+            },
+            {
+                "item": "Lakeheart Pearl",
+                "type": "Gem",
+                "chance": 0.08
+            }
+        ]
+    },
+    {
+        "task_id": "FISH_004",
+        "node_name": "Sacred Falls",
+        "difficulty": "Medium",
+        "description": "A divine waterfall near the Outer Grove Districts where the leyline meets a natural spring. The water here glows faintly at dawn. Fish caught here are considered blessed.",
+        "requirements": {
+            "min_level": 5,
+            "fishing_skill_level": 5
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 75,
+            "xp_per_kill": 35,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Sacred Salmon",
+                "type": "Fish",
+                "chance": 0.75
+            },
+            {
+                "item": "Flamecrest Bream",
+                "type": "Fish",
+                "chance": 0.55
+            },
+            {
+                "item": "Leyline Roe",
+                "type": "Alchemy",
+                "chance": 0.30
+            },
+            {
+                "item": "Blessing Pearl",
+                "type": "Gem",
+                "chance": 0.10
+            }
+        ]
+    },
+    {
+        "task_id": "FISH_005",
+        "node_name": "Leviathan Cradle",
+        "difficulty": "Hard",
+        "description": "The deepest trench in Emberlake, where ancient creatures sleep beneath shard-warmed waters. Sailors at the Flamepier tell of shadows beneath their hulls that are larger than ships.",
+        "requirements": {
+            "min_level": 7,
+            "fishing_skill_level": 7
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 100,
+            "xp_per_kill": 55,
+            "max_drops_per_kill": 4
+        },
+        "drop_table": [
+            {
+                "item": "Cradle Leviathan Fry",
+                "type": "Fish",
+                "chance": 0.70
+            },
+            {
+                "item": "Deep Emberlake Eel",
+                "type": "Fish",
+                "chance": 0.60
+            },
+            {
+                "item": "Abyssal Coral",
+                "type": "Resource",
+                "chance": 0.35
+            },
+            {
+                "item": "Leviathan Scale",
+                "type": "Trophy",
+                "chance": 0.10
+            },
+            {
+                "item": "Ancient Dockmaster's Coin",
+                "type": "Treasure",
+                "chance": 0.05
+            }
+        ]
+    },
+    {
+        "task_id": "FISH_006",
+        "node_name": "Fae-Touched Waters",
+        "difficulty": "Hard",
+        "description": "Where the Silkspire Trail crosses enchanted streams near the fae-craft borderlands. The water shifts color with the seasons and fish here shimmer with residual fae magic.",
+        "requirements": {
+            "min_level": 8,
+            "fishing_skill_level": 8
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 90,
+            "xp_per_kill": 50,
+            "max_drops_per_kill": 4
+        },
+        "drop_table": [
+            {
+                "item": "Fae-Touched Pike",
+                "type": "Fish",
+                "chance": 0.75
+            },
+            {
+                "item": "Dreamfin Carp",
+                "type": "Fish",
+                "chance": 0.55
+            },
+            {
+                "item": "Moonwater Algae",
+                "type": "Alchemy",
+                "chance": 0.40
+            },
+            {
+                "item": "Fae Pearl",
+                "type": "Gem",
+                "chance": 0.15
+            },
+            {
+                "item": "Dreambinding Ink",
+                "type": "Treasure",
+                "chance": 0.05
+            }
+        ]
+    },
+    {
+        "task_id": "FISH_007",
+        "node_name": "Divine Spring (Vault Overflow)",
+        "difficulty": "Legendary",
+        "description": "A hidden spring fed by runoff from the Vault of Seven's deepest chambers. The water hums with divine resonance. Only those bearing Kaelrath's blessing can fish here without the water rejecting their lines.",
+        "requirements": {
+            "min_level": 10,
+            "fishing_skill_level": 10
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 150,
+            "xp_per_kill": 85,
+            "max_drops_per_kill": 4
+        },
+        "drop_table": [
+            {
+                "item": "Divine Koi",
+                "type": "Fish",
+                "chance": 0.65
+            },
+            {
+                "item": "Memory-Touched Eel",
+                "type": "Fish",
+                "chance": 0.50
+            },
+            {
+                "item": "Echo Water",
+                "type": "Alchemy",
+                "chance": 0.35
+            },
+            {
+                "item": "Sovereign's Pearl",
+                "type": "Gem",
+                "chance": 0.15
+            },
+            {
+                "item": "Flame Chronicler's Scale",
+                "type": "Divine",
+                "chance": 0.03
+            }
+        ]
+    }
+]

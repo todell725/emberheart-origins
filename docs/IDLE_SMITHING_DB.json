@@ -1,0 +1,262 @@
+[
+    {
+        "task_id": "SMITH_001",
+        "recipe_name": "Ashiron Bar",
+        "description": "The kingdom's standard metal bar, smelted from Ashiron Ore in the Embersteel Quarter foundries. Used in everything from golem parts to household tools.",
+        "difficulty": "Easy",
+        "requirements": {
+            "min_level": 1,
+            "tool_required": "Furnace"
+        },
+        "ingredients": {
+            "Ashiron Ore": 2,
+            "Kindling": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 60,
+            "xp_per_kill": 25,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Ashiron Bar",
+                "weight": 70,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Slag",
+                "weight": 25,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Refined Ashiron Bar",
+                "weight": 5,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "SMITH_002",
+        "recipe_name": "Flame-Hardened Plate",
+        "description": "Leyline-tempered metal plating produced in the deeper forges. Standard issue for Flamebound infantry armor and golem chassis.",
+        "difficulty": "Medium",
+        "requirements": {
+            "min_level": 5,
+            "tool_required": "Forge Anvil"
+        },
+        "ingredients": {
+            "Flame-Hardened Metal": 2,
+            "Ashiron Ore": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 120,
+            "xp_per_kill": 60,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Flame-Hardened Plate",
+                "weight": 65,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Heat-Touched Rivets",
+                "weight": 25,
+                "min_qty": 1,
+                "max_qty": 3
+            },
+            {
+                "item": "Embersteel Plate",
+                "weight": 10,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "SMITH_003",
+        "recipe_name": "Orichalcum Ingot",
+        "description": "The golden-red alloy prized by the Forge Academy. Smelting Orichalcum requires sustained divine-level heat — only possible in the Embersteel Quarter's leyline-fed forges.",
+        "difficulty": "Hard",
+        "requirements": {
+            "min_level": 10,
+            "tool_required": "Leyline Forge"
+        },
+        "ingredients": {
+            "Orichalcum Ore": 3,
+            "Ember Resin": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 200,
+            "xp_per_kill": 120,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Orichalcum Ingot",
+                "weight": 60,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Orichalcum Shavings",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Pure Orichalcum Ingot",
+                "weight": 10,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "SMITH_004",
+        "recipe_name": "Voidsteel Bar",
+        "description": "Dark metal that absorbs magical energy. Essential for anti-magic armaments and elite golem construction. The smelting process produces an eerie silence around the forge.",
+        "difficulty": "Very Hard",
+        "requirements": {
+            "min_level": 20,
+            "tool_required": "Containment Forge"
+        },
+        "ingredients": {
+            "Voidsteel Ore": 3,
+            "Shard Crystal": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 360,
+            "xp_per_kill": 250,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Voidsteel Bar",
+                "weight": 55,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Void Residue",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Perfect Voidsteel Bar",
+                "weight": 12,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Null Fragment",
+                "weight": 3,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "SMITH_005",
+        "recipe_name": "Memory-Forged Blade",
+        "description": "A blade forged from Memory Ore that retains echoes of its creator's intent. These weapons are semi-sentient and bond to their wielder. Only Memory Smiths at the Forge Academy can produce them.",
+        "difficulty": "Expert",
+        "requirements": {
+            "min_level": 30,
+            "tool_required": "Memory Anvil"
+        },
+        "ingredients": {
+            "Memory Ore": 2,
+            "Orichalcum Ingot": 1,
+            "Echo Fragment": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 500,
+            "xp_per_kill": 400,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Memory-Forged Blade",
+                "weight": 50,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Memory-Touched Hilt",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Whispering Blade",
+                "weight": 15,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Echo Flame Shard",
+                "weight": 5,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "SMITH_006",
+        "recipe_name": "Godsteel Ingot",
+        "description": "The rarest metal in Emberheart, smelted from ore found only in the Shrine of Echo Flame. Requires Kaelrath's personal blessing on the forge. Used in relics of kingdom-defining power.",
+        "difficulty": "Legendary",
+        "requirements": {
+            "min_level": 50,
+            "tool_required": "Divine Forge of the Vault"
+        },
+        "ingredients": {
+            "Godsteel Ore": 3,
+            "Echo Flame Essence": 1,
+            "Voidsteel Bar": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 900,
+            "xp_per_kill": 1000,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Godsteel Ingot",
+                "weight": 45,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Divine Slag",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Sovereign Godsteel Ingot",
+                "weight": 18,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Kaelrath's Forge Blessing",
+                "weight": 5,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Memory of the First Flame",
+                "weight": 2,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    }
+]

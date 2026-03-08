@@ -1,0 +1,14 @@
+{
+  "id": "EH-28",
+  "name": "Emberyn",
+  "race": "Half-Divine",
+  "role": "Young Bard, Child of Kaelrath",
+  "title": "The Spark Singer",
+  "domains": [
+    "performance",
+    "fire"
+  ],
+  "avatar_url": "portrait.webp",
+  "bio": "Age 10. Young bard in Emberheart who sings of stars and fire with no formal training. Her voice carries an otherworldly resonance that makes listeners weep.",
+  "motivation": "Sing the songs that the flames whisper to her and find out why she can hear them."
+}

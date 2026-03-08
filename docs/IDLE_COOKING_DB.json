@@ -1,0 +1,350 @@
+[
+    {
+        "task_id": "COOK_001",
+        "recipe_name": "Hearthfire Roasting",
+        "description": "Basic roasting of Emberfield game meat over an open flame at the communal kitchens in Wyrmshadow Commons.",
+        "difficulty": "Easy",
+        "requirements": {
+            "min_level": 1,
+            "tool_required": "None"
+        },
+        "ingredients": {
+            "Hare Meat": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 60,
+            "xp_per_kill": 25,
+            "max_drops_per_kill": 1
+        },
+        "drop_table": [
+            {
+                "item": "Seared Hearthfire Meat",
+                "weight": 70,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Charred Scraps",
+                "weight": 25,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Perfectly Roasted Haunch",
+                "weight": 5,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "COOK_002",
+        "recipe_name": "Flamewheat Bread",
+        "description": "Flat loaves of Flamewheat from the Emberfields, baked on hot stones. The staple food of Emberheart's working class.",
+        "difficulty": "Easy",
+        "requirements": {
+            "min_level": 3,
+            "tool_required": "Baking Stone"
+        },
+        "ingredients": {
+            "Hare Meat": 1,
+            "Lakeweed": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 90,
+            "xp_per_kill": 40,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Flamewheat Loaf",
+                "weight": 65,
+                "min_qty": 1,
+                "max_qty": 3
+            },
+            {
+                "item": "Crusty Bread Roll",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Golden Hearthbread",
+                "weight": 5,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "COOK_003",
+        "recipe_name": "Ashbarley Stew",
+        "description": "A hearty stew made with Ashbarley grain, root vegetables, and game meat. Served in every tavern from the Stoneheart Ring to the docks.",
+        "difficulty": "Medium",
+        "requirements": {
+            "min_level": 8,
+            "tool_required": "Iron Pot"
+        },
+        "ingredients": {
+            "Boar Meat": 1,
+            "Lakeweed": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 150,
+            "xp_per_kill": 80,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Bowl of Ashbarley Stew",
+                "weight": 60,
+                "min_qty": 1,
+                "max_qty": 3
+            },
+            {
+                "item": "Ashbarley Broth",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Commander's Hearty Bowl",
+                "weight": 10,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "COOK_004",
+        "recipe_name": "Shimmerplum Tart",
+        "description": "Delicate pastry filled with Shimmerplum jam from the Bloomshade orchards. A favorite of House Maurellien and served at council meetings.",
+        "difficulty": "Medium",
+        "requirements": {
+            "min_level": 12,
+            "tool_required": "Pastry Mold"
+        },
+        "ingredients": {
+            "Venison": 1,
+            "Silent Bloom Root": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 200,
+            "xp_per_kill": 120,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Shimmerplum Tart",
+                "weight": 55,
+                "min_qty": 1,
+                "max_qty": 3
+            },
+            {
+                "item": "Shimmerplum Jam",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Councilor's Grace Tart",
+                "weight": 12,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Bloomshade Essence",
+                "weight": 3,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "COOK_005",
+        "recipe_name": "Emberroot Roast",
+        "description": "A slow-roasted dish using fire-touched Emberroot tubers and game meat, marinated in thermal kelp extract. A favorite of the Iron March barracks.",
+        "difficulty": "Hard",
+        "requirements": {
+            "min_level": 18,
+            "tool_required": "Stone Oven"
+        },
+        "ingredients": {
+            "Venison": 2,
+            "Thermal Kelp": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 300,
+            "xp_per_kill": 200,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Emberroot Roast",
+                "weight": 60,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Charred Emberroot Chips",
+                "weight": 25,
+                "min_qty": 2,
+                "max_qty": 4
+            },
+            {
+                "item": "General's Feast Platter",
+                "weight": 12,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Shard-Grain Flour",
+                "weight": 3,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "COOK_006",
+        "recipe_name": "Shard-Grain Porridge",
+        "description": "A potent porridge made from divine shard-grain, rumored to enhance magical focus. Prismspire students eat it before examinations.",
+        "difficulty": "Hard",
+        "requirements": {
+            "min_level": 25,
+            "tool_required": "Cauldron"
+        },
+        "ingredients": {
+            "Emberlake Sturgeon": 1,
+            "Thermal Kelp": 2
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 400,
+            "xp_per_kill": 320,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Bowl of Shard-Grain Porridge",
+                "weight": 50,
+                "min_qty": 1,
+                "max_qty": 3
+            },
+            {
+                "item": "Arcane Focus Paste",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Thalos's Clarity Broth",
+                "weight": 15,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Prismspire Provender",
+                "weight": 5,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "COOK_007",
+        "recipe_name": "Dreamfruit Elixir",
+        "description": "An alchemical cooking process that distills dreamfruit into a concentrated elixir. Grants vivid, prophetic dreams. Consumed by Archivist Sybelle during divination sessions.",
+        "difficulty": "Expert",
+        "requirements": {
+            "min_level": 35,
+            "tool_required": "Crystal Alembic"
+        },
+        "ingredients": {
+            "Divine Koi": 1,
+            "Dreamwood Sap": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 600,
+            "xp_per_kill": 500,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Dreamfruit Elixir",
+                "weight": 45,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Prophetic Broth",
+                "weight": 35,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Sybelle's Visionary Draught",
+                "weight": 15,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Dream Essence",
+                "weight": 5,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "COOK_008",
+        "recipe_name": "Divine Feast of the Flamekeeper",
+        "description": "A legendary multi-course banquet served only at the Flame Remembers festival. Requires mastery over divine-flame cooking and ingredients from every corner of Emberheart. Said to temporarily grant divine clarity.",
+        "difficulty": "Legendary",
+        "requirements": {
+            "min_level": 50,
+            "tool_required": "Divine Hearthstone"
+        },
+        "ingredients": {
+            "Ancient Wyrm Steak": 1,
+            "Divine Koi": 1,
+            "Echo Elk Loin": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 900,
+            "xp_per_kill": 1000,
+            "max_drops_per_kill": 5
+        },
+        "drop_table": [
+            {
+                "item": "Grand Feast Ration",
+                "weight": 40,
+                "min_qty": 3,
+                "max_qty": 8
+            },
+            {
+                "item": "Flame Remembers Mead",
+                "weight": 30,
+                "min_qty": 2,
+                "max_qty": 4
+            },
+            {
+                "item": "Sovereign's Banquet Plate",
+                "weight": 18,
+                "min_qty": 1,
+                "max_qty": 2
+            },
+            {
+                "item": "Ambrosia of the Flamekeeper",
+                "weight": 10,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Kaelrath's Blessing (Culinary)",
+                "weight": 2,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    }
+]

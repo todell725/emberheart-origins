@@ -1,0 +1,14 @@
+{
+  "id": "EH-16",
+  "name": "Master Artor",
+  "race": "Human",
+  "role": "Senior Smith, Forge Academy",
+  "title": "Master Smith",
+  "domains": [
+    "crafting",
+    "education"
+  ],
+  "avatar_url": "portrait.webp",
+  "bio": "Senior smith at the Forge Academy, veteran of the Sleeper War. He trains the next generation of flamecrafters and relic forgers under Kaelrath's divine oversight.",
+  "motivation": "Pass on the craft before age claims what battle could not."
+}

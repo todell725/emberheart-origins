@@ -1,0 +1,340 @@
+[
+    {
+        "task_id": "SLAY_001",
+        "node_name": "Shard Entity (Minor)",
+        "difficulty": "Very Easy",
+        "description": "Small crystalline constructs animated by residual shard-energy. Found near old breach zones and Vault perimeters. They shatter easily but reform if not fully destroyed.",
+        "requirements": {
+            "min_level": 1,
+            "slayer_skill_level": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 20,
+            "xp_per_kill": 10,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Shard Fragment",
+                "type": "Resource",
+                "chance": 0.90
+            },
+            {
+                "item": "Shard Dust",
+                "type": "Resource",
+                "chance": 0.60
+            },
+            {
+                "item": "Crystalline Core",
+                "type": "Crafting",
+                "chance": 0.10
+            }
+        ]
+    },
+    {
+        "task_id": "SLAY_002",
+        "node_name": "Crimson Mask Cultist",
+        "difficulty": "Easy",
+        "description": "Followers of a forbidden sect that worships the pre-Ascension Kaelrath. They lurk in sewer tunnels beneath the Wyrmshadow Commons. Fanatical but poorly armed.",
+        "requirements": {
+            "min_level": 3,
+            "slayer_skill_level": 3
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 30,
+            "xp_per_kill": 18,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Crimson Mask",
+                "type": "Trophy",
+                "chance": 0.80
+            },
+            {
+                "item": "Cultist's Dagger",
+                "type": "Weapon",
+                "chance": 0.50
+            },
+            {
+                "item": "Forbidden Scroll Fragment",
+                "type": "Crafting",
+                "chance": 0.15
+            },
+            {
+                "item": "Blood-Ink Vial",
+                "type": "Alchemy",
+                "chance": 0.08
+            }
+        ]
+    },
+    {
+        "task_id": "SLAY_003",
+        "node_name": "Fae Trickster",
+        "difficulty": "Medium",
+        "description": "Mischievous fae creatures that wander in from the Silkspire Trail borderlands. They steal tools, invert signs, and glamour livestock. Annoying more than dangerous, but slippery.",
+        "requirements": {
+            "min_level": 5,
+            "slayer_skill_level": 5
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 50,
+            "xp_per_kill": 30,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Fae Dust",
+                "type": "Alchemy",
+                "chance": 0.85
+            },
+            {
+                "item": "Glamour Stone",
+                "type": "Gem",
+                "chance": 0.40
+            },
+            {
+                "item": "Trickster's Bell",
+                "type": "Trophy",
+                "chance": 0.20
+            },
+            {
+                "item": "Dreambinding Thread",
+                "type": "Crafting",
+                "chance": 0.10
+            }
+        ]
+    },
+    {
+        "task_id": "SLAY_004",
+        "node_name": "Void-Touched Golem",
+        "difficulty": "Medium",
+        "description": "Malfunctioning golems whose cores have been corrupted by residual void energy. They wander the Embersteel Quarter at night, attacking anything that moves. House Veydran offers bounties.",
+        "requirements": {
+            "min_level": 6,
+            "slayer_skill_level": 6
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 70,
+            "xp_per_kill": 40,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Corrupted Golem Core",
+                "type": "Crafting",
+                "chance": 0.75
+            },
+            {
+                "item": "Orichalcum Scraps",
+                "type": "Ore",
+                "chance": 0.60
+            },
+            {
+                "item": "Void Residue",
+                "type": "Resource",
+                "chance": 0.30
+            },
+            {
+                "item": "Intact Golem Eye",
+                "type": "Trophy",
+                "chance": 0.10
+            }
+        ]
+    },
+    {
+        "task_id": "SLAY_005",
+        "node_name": "Dream-Eater",
+        "difficulty": "Hard",
+        "description": "Parasitic entities from the Dream domain that feed on sleeping minds. They appear as translucent, many-limbed shadows. The Crystal Archive Ward reports increased sightings near the Library of Echoes.",
+        "requirements": {
+            "min_level": 7,
+            "slayer_skill_level": 7
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 90,
+            "xp_per_kill": 55,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Dream Essence",
+                "type": "Resource",
+                "chance": 0.70
+            },
+            {
+                "item": "Nightmare Thread",
+                "type": "Crafting",
+                "chance": 0.45
+            },
+            {
+                "item": "Dream-Eater Fang",
+                "type": "Trophy",
+                "chance": 0.25
+            },
+            {
+                "item": "Whispering Shard",
+                "type": "Gem",
+                "chance": 0.10
+            }
+        ]
+    },
+    {
+        "task_id": "SLAY_006",
+        "node_name": "Mnemonic Coil",
+        "difficulty": "Hard",
+        "description": "Serpentine memory constructs formed when divine memories leak from the Vault of Seven. They coil around architectural features and drain nearby wards of power. Extremely dangerous to touch.",
+        "requirements": {
+            "min_level": 8,
+            "slayer_skill_level": 8
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 100,
+            "xp_per_kill": 65,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Memory Fragment",
+                "type": "Resource",
+                "chance": 0.70
+            },
+            {
+                "item": "Coil Spine",
+                "type": "Crafting",
+                "chance": 0.50
+            },
+            {
+                "item": "Echo Fragment",
+                "type": "Resource",
+                "chance": 0.25
+            },
+            {
+                "item": "Memory Amber",
+                "type": "Gem",
+                "chance": 0.08
+            }
+        ]
+    },
+    {
+        "task_id": "SLAY_007",
+        "node_name": "Ember Maw Beast",
+        "difficulty": "Very Hard",
+        "description": "Massive fire-breathing predators that emerge from volcanic vents along the Ashwake Caravan Spine. Their jaws glow with internal flame. Caravan guardsmen consider them the number one threat.",
+        "requirements": {
+            "min_level": 9,
+            "slayer_skill_level": 9
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 130,
+            "xp_per_kill": 80,
+            "max_drops_per_kill": 4
+        },
+        "drop_table": [
+            {
+                "item": "Ember Maw Fang",
+                "type": "Trophy",
+                "chance": 0.70
+            },
+            {
+                "item": "Fireblood",
+                "type": "Alchemy",
+                "chance": 0.55
+            },
+            {
+                "item": "Molten Scale",
+                "type": "Hide",
+                "chance": 0.40
+            },
+            {
+                "item": "Fire Gland",
+                "type": "Alchemy",
+                "chance": 0.20
+            },
+            {
+                "item": "Ember Heart Crystal",
+                "type": "Gem",
+                "chance": 0.05
+            }
+        ]
+    },
+    {
+        "task_id": "SLAY_008",
+        "node_name": "Hollow Choir Shade",
+        "difficulty": "Very Hard",
+        "description": "Spectral echoes of forgotten souls trapped in the Memory domain. They manifest as hollow, singing apparitions in the deepest chambers of the Crystal Archive. Their song drains willpower.",
+        "requirements": {
+            "min_level": 9,
+            "slayer_skill_level": 9
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 120,
+            "xp_per_kill": 75,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Hollow Choir Echo",
+                "type": "Resource",
+                "chance": 0.65
+            },
+            {
+                "item": "Shade Silk",
+                "type": "Crafting",
+                "chance": 0.45
+            },
+            {
+                "item": "Silenced Bell",
+                "type": "Trophy",
+                "chance": 0.20
+            },
+            {
+                "item": "Lament Crystal",
+                "type": "Gem",
+                "chance": 0.10
+            }
+        ]
+    },
+    {
+        "task_id": "SLAY_009",
+        "node_name": "Corrupted Vault Seraph",
+        "difficulty": "Legendary",
+        "description": "Angelic guardians of the Vault of Seven that have been corrupted by accumulated shard-entropy. These towering, six-winged entities wield flame and memory as weapons. Only Kaelrath's personal intervention can permanently destroy them.",
+        "requirements": {
+            "min_level": 10,
+            "slayer_skill_level": 10
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 200,
+            "xp_per_kill": 120,
+            "max_drops_per_kill": 5
+        },
+        "drop_table": [
+            {
+                "item": "Seraphic Plume",
+                "type": "Divine",
+                "chance": 0.55
+            },
+            {
+                "item": "Corrupted Halo Fragment",
+                "type": "Trophy",
+                "chance": 0.40
+            },
+            {
+                "item": "Divine Flame Shard",
+                "type": "Resource",
+                "chance": 0.25
+            },
+            {
+                "item": "Memory of the Vault",
+                "type": "Divine",
+                "chance": 0.10
+            },
+            {
+                "item": "Seraph's Tear",
+                "type": "Gem",
+                "chance": 0.05
+            }
+        ]
+    }
+]

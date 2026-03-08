@@ -1,0 +1,16 @@
+{
+  "id": "PC-01",
+  "name": "Kaelrath Emberhide",
+  "race": "Custom Divine (Shardbound)",
+  "role": "Flamekeeper, God-Ascendant, Ruler",
+  "title": "The Flamekeeper, God-Ascendant of Emberheart",
+  "domains": [
+    "fire",
+    "memory",
+    "sacrifice",
+    "dream"
+  ],
+  "avatar_url": null,
+  "bio": "Divine ruler of Emberheart, former smith's apprentice who ascended to godhood. Father of nine, husband to four. Presides over a golden age of kingdom-building with no active wars or divine calamities. Master of Wyrmtooth, Claim-Reborn, and Sunderborne relics.",
+  "motivation": "Guide Emberheart through an era of prosperity — infrastructure, noble cooperation, and preparing the next generation."
+}

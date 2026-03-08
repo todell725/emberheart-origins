@@ -1,0 +1,15 @@
+{
+  "id": "EH-15",
+  "name": "Forge-Sergeant Halvek",
+  "level": 5,
+  "xp": 0,
+  "status": {
+    "hp": 100,
+    "max_hp": 100,
+    "location": "Citadel Core",
+    "mood": "Content",
+    "equipped": {},
+    "inventory": []
+  },
+  "skills": {}
+}

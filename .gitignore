@@ -1,0 +1,87 @@
+# ===========================
+# EmberHeart: Origins .gitignore
+# ===========================
+
+# ---- Environment & Secrets ----
+.env
+*.env
+.env.*
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- Virtual Environments ----
+venv/
+env/
+ENV/
+.venv/
+
+# ---- Runtime State (regenerated at runtime) ----
+state/FISHING_ACTIVE.json
+state/HUNTING_ACTIVE.json
+state/MINING_ACTIVE.json
+state/WOODCUTTING_ACTIVE.json
+state/SMITHING_ACTIVE.json
+state/SLAYER_ACTIVE.json
+state/QUEST_COMPLETION.json
+state/SHOP_STOCK.json
+state/chronicle.json
+state/QUEST_DEEDS.md
+
+# ---- Logs ----
+logs/
+*.log
+emberheart_unified.log
+session_logs/
+
+# ---- Testing ----
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---- Project Specific ----
+emberheart.log
+chronicle.json
+data/
+archive/

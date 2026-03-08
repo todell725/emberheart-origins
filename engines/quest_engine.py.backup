@@ -1,0 +1,169 @@
+"""
+Quest Engine for Claudes-EmberHeart
+Ported from EmberHeartReborn
+"""
+import logging
+import json
+from typing import Dict, List, Optional
+from core.config import ROOT_DIR, DB_DIR
+from engines.combat_engine import CombatTracker
+
+logger = logging.getLogger("EH_QuestEngine")
+
+DOCS_DIR = ROOT_DIR / "docs"
+
+
+class QuestEngine:
+    def __init__(self):
+        self.db_path = DOCS_DIR / "SIDE_QUESTS_DB.json"
+        self.completion_path = DOCS_DIR / "QUEST_COMPLETION.json"
+        self.loot_path = DOCS_DIR / "PARTY_EQUIPMENT.json"
+        self.deeds_path = DB_DIR / "QUEST_DEEDS.md"
+        self._db = self._load_db()
+        self.completed = self._load_completed()
+        self.combat = CombatTracker()
+
+    def _load_db(self) -> list:
+        if not self.db_path.exists():
+            logger.warning(f"Quest DB not found: {self.db_path}")
+            return []
+        try:
+            data = json.loads(self.db_path.read_text(encoding='utf-8'))
+            logger.info(f"Loaded {len(data)} quests from {self.db_path.name}")
+            return data
+        except Exception as e:
+            logger.error(f"Failed to load quests: {e}")
+            return []
+
+    def _load_completed(self) -> set:
+        if not self.completion_path.exists():
+            return set()
+        try:
+            data = json.loads(self.completion_path.read_text(encoding='utf-8'))
+            return set(data.get("completed", []))
+        except Exception:
+            return set()
+
+    def get_quest(self, qid: str) -> Optional[dict]:
+        qid = qid.upper()
+        for q in self._db:
+            if q.get('id', '').upper() == qid:
+                return q
+        return None
+
+    def check_prerequisites(self, qid: str) -> tuple:
+        """Returns (ok: bool, missing: list). missing is [] when ok."""
+        quest = self.get_quest(qid)
+        if not quest:
+            return False, [f"Quest {qid} not found"]
+
+        prereqs = quest.get("prerequisites", [])
+        missing = [p for p in prereqs if p.upper() not in self.completed]
+        return len(missing) == 0, missing
+
+    def resolve_outcome(self, qid: str, path: list) -> Optional[str]:
+        """Map the A/B choice path to a branching_outcome key."""
+        quest = self.get_quest(qid)
+        if not quest:
+            return None
+
+        outcomes = quest.get("branching_outcomes", {})
+        if not outcomes or not path:
+            return None
+
+        path_key = "".join(path).upper()
+        if path_key in outcomes:
+            return path_key
+
+        for key in outcomes:
+            if key.upper() == path_key:
+                return key
+
+        return None
+
+    def apply_failure(self, qid: str) -> Optional[str]:
+        """Apply risk_matrix failure penalties. Returns critical_failure text."""
+        quest = self.get_quest(qid)
+        if not quest:
+            return None
+
+        risk = quest.get("risk_matrix", {})
+        failure = risk.get("critical_failure")
+        if failure:
+            logger.warning(f"Quest {qid} critical failure: {failure}")
+        return failure
+
+    async def mark_completed(self, qid: str, path: list = None) -> list:
+        """Mark quest finished. Awards XP, loot, logs outcome + permanent effects."""
+        quest = self.get_quest(qid)
+        if not quest:
+            return []
+
+        qid = qid.upper()
+        self.completed.add(qid)
+
+        try:
+            from core.state_store import coordinator
+            await coordinator.update_global_json_async(
+                "QUEST_COMPLETION.json",
+                lambda data: {"completed": list(self.completed)}
+            )
+        except Exception as e:
+            logger.error(f"Failed to save quest completion: {e}")
+
+        xp = quest.get("xp_reward", 0)
+        leveled = []
+        if xp > 0:
+            leveled = await self.combat.add_party_xp(xp)
+
+        loot = quest.get("loot", [])
+        if loot:
+            await self.sync_loot(loot)
+
+        outcome_key = self.resolve_outcome(qid, path) if path else "default"
+        self.log_deed(qid, quest.get("title", qid), f"Completed via path: {outcome_key}")
+
+        return leveled
+
+    async def sync_loot(self, loot_list: list):
+        """Distribute loot items to party members."""
+        try:
+            from core.storage import load_all_character_states
+            all_states = load_all_character_states()
+            party = [s for s in all_states if s.get("id", "").startswith("PC-")]
+
+            if not party:
+                logger.warning("No party members found for loot sync")
+                return
+
+            import random
+            for item in loot_list:
+                target = random.choice(party)
+                char_id = target.get("id")
+
+                from core.state_store import coordinator
+                from core.storage import load_character_state
+
+                char_state = load_character_state(char_id) or {}
+                inv = char_state.get("status", {}).get("inventory", [])
+                if isinstance(inv, list):
+                    inv.append(item if isinstance(item, str) else item.get("name", str(item)))
+                char_state.setdefault("status", {})["inventory"] = inv
+
+                await coordinator.update_character_state_async(char_id, char_state)
+                logger.info(f"Loot '{item}' -> {target.get('name', char_id)}")
+
+        except Exception as e:
+            logger.error(f"Loot sync failed: {e}", exc_info=True)
+
+    def log_deed(self, qid: str, title: str, outcome: str):
+        """Append quest deed to the log."""
+        try:
+            from datetime import datetime
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+            entry = f"\n## [{qid}] {title}\n- **Completed**: {timestamp}\n- **Outcome**: {outcome}\n"
+
+            with open(self.deeds_path, 'a', encoding='utf-8') as f:
+                f.write(entry)
+        except Exception as e:
+            logger.error(f"Failed to log deed: {e}")

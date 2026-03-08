@@ -1,0 +1,275 @@
+[
+    {
+        "task_id": "CRAFT_001",
+        "recipe_name": "Ashiron Tools",
+        "description": "Basic tools forged from Ashiron bars and Ashbark handles. Standard-issue for miners, foresters, and farmers across Emberheart.",
+        "difficulty": "Easy",
+        "requirements": {
+            "min_level": 1,
+            "tool_required": "Workbench"
+        },
+        "ingredients": {
+            "Ashiron Bar": 1,
+            "Ashbark Log": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 60,
+            "xp_per_kill": 20,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Ashiron Pickaxe",
+                "weight": 35,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Ashiron Hatchet",
+                "weight": 35,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Ashiron Fishing Rod",
+                "weight": 25,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Ashiron Nails (x10)",
+                "weight": 5,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "CRAFT_002",
+        "recipe_name": "Emberlake Nets",
+        "description": "Sturdy fishing nets woven from treated Lakeweed fiber and Ashbark cord. Essential equipment for the Flamepier Docks fishing fleet.",
+        "difficulty": "Easy",
+        "requirements": {
+            "min_level": 3,
+            "tool_required": "Loom"
+        },
+        "ingredients": {
+            "Lakeweed": 3,
+            "Ashbark Bark": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 90,
+            "xp_per_kill": 35,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Emberlake Fishing Net",
+                "weight": 65,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Reinforced Net",
+                "weight": 25,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Leviathan-Rated Net",
+                "weight": 10,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "CRAFT_003",
+        "recipe_name": "Flamewood Staff",
+        "description": "A staff carved from a single piece of Flamewood, prized by Prismspire mages. The heartwood's natural glow serves as a light source and focus.",
+        "difficulty": "Medium",
+        "requirements": {
+            "min_level": 8,
+            "tool_required": "Carving Tools"
+        },
+        "ingredients": {
+            "Flamewood Log": 2,
+            "Shard Dust": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 150,
+            "xp_per_kill": 70,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Flamewood Staff",
+                "weight": 55,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Flamewood Walking Stick",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Flame-Heart Staff",
+                "weight": 12,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Flamewood Shavings",
+                "weight": 3,
+                "min_qty": 1,
+                "max_qty": 2
+            }
+        ]
+    },
+    {
+        "task_id": "CRAFT_004",
+        "recipe_name": "Shard-Bark Shield",
+        "description": "A shield crafted from crystallized Shard-Barked wood, reinforced with Ashiron bands. Absorbs magical discharge and is issued to House Caldrith's elite knights.",
+        "difficulty": "Hard",
+        "requirements": {
+            "min_level": 15,
+            "tool_required": "Enchanted Workbench"
+        },
+        "ingredients": {
+            "Shard-Barked Log": 1,
+            "Ashiron Bar": 2,
+            "Shard Crystal": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 250,
+            "xp_per_kill": 140,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Shard-Bark Shield",
+                "weight": 55,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Shard-Bark Buckler",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Knight-Commander's Ward",
+                "weight": 12,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Resonant Shield",
+                "weight": 3,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "CRAFT_005",
+        "recipe_name": "Dreamwood Bow",
+        "description": "An exquisite bow carved from Dreamwood, strung with wyrm sinew. The arrows fired from it shimmer faintly, curving toward targets touched by hostile intent.",
+        "difficulty": "Very Hard",
+        "requirements": {
+            "min_level": 25,
+            "tool_required": "Master Carving Tools"
+        },
+        "ingredients": {
+            "Dreamwood Log": 2,
+            "Wyrmling Scale": 1,
+            "Phase Crystal": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 400,
+            "xp_per_kill": 280,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Dreamwood Bow",
+                "weight": 50,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Dreamwood Shortbow",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Phase-Seeking Longbow",
+                "weight": 15,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Dream Arrow (x5)",
+                "weight": 5,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    },
+    {
+        "task_id": "CRAFT_006",
+        "recipe_name": "Golem Core Assembly",
+        "description": "A functional golem control core assembled from Orichalcum components, Memory Ore circuitry, and Voidsteel housing. This is the heart of every golem produced in Emberheart.",
+        "difficulty": "Legendary",
+        "requirements": {
+            "min_level": 40,
+            "tool_required": "Veydran Assembly Rig"
+        },
+        "ingredients": {
+            "Orichalcum Ingot": 2,
+            "Memory Ore": 1,
+            "Voidsteel Bar": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 720,
+            "xp_per_kill": 800,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Standard Golem Core",
+                "weight": 45,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Elite Golem Core",
+                "weight": 30,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Memory-Reactive Core",
+                "weight": 18,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Sovereign Core",
+                "weight": 5,
+                "min_qty": 1,
+                "max_qty": 1
+            },
+            {
+                "item": "Thalos's Blessing (Golemancy)",
+                "weight": 2,
+                "min_qty": 1,
+                "max_qty": 1
+            }
+        ]
+    }
+]

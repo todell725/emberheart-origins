@@ -1,0 +1,13 @@
+{
+  "id": "EH-22",
+  "name": "Bellringer Iros",
+  "race": "Golem",
+  "role": "Civic Golem, Central Tower",
+  "title": "The Bellringer",
+  "domains": [
+    "civic"
+  ],
+  "avatar_url": "portrait.webp",
+  "bio": "Named civic golem that marks council hours by ringing the central tower bells. A beloved fixture of Emberheart's civic life. Does not speak, but its chimes carry across all districts.",
+  "motivation": "Ring the bells on time. Always."
+}

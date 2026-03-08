@@ -1,0 +1,303 @@
+[
+    {
+        "task_id": "MINE_001",
+        "node_name": "Surface Clay Bed",
+        "difficulty": "Very Easy",
+        "description": "Soft clay deposits found near the Emberfields. Used for basic construction and pottery. Golem-tended extraction pits make this ideal for beginners.",
+        "requirements": {
+            "min_level": 1,
+            "mining_skill_level": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 15,
+            "xp_per_kill": 5,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Emberheart Clay",
+                "type": "Resource",
+                "chance": 0.95
+            },
+            {
+                "item": "Stone",
+                "type": "Resource",
+                "chance": 0.70
+            },
+            {
+                "item": "Shard Fragment",
+                "type": "Resource",
+                "chance": 0.10
+            }
+        ]
+    },
+    {
+        "task_id": "MINE_002",
+        "node_name": "Ashiron Vein",
+        "difficulty": "Easy",
+        "description": "Veins of dull grey Ashiron run through the Industrial Mines beneath Emberheart. The kingdom's most common metal — lightweight, resilient, and fire-resistant.",
+        "requirements": {
+            "min_level": 2,
+            "mining_skill_level": 2
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 30,
+            "xp_per_kill": 15,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Ashiron Ore",
+                "type": "Ore",
+                "chance": 0.90
+            },
+            {
+                "item": "Stone",
+                "type": "Resource",
+                "chance": 0.60
+            },
+            {
+                "item": "Shard Dust",
+                "type": "Resource",
+                "chance": 0.20
+            },
+            {
+                "item": "Rough Firegem",
+                "type": "Gem",
+                "chance": 0.05
+            }
+        ]
+    },
+    {
+        "task_id": "MINE_003",
+        "node_name": "Flame-Hardened Deposit",
+        "difficulty": "Medium",
+        "description": "Deep within the Embersteel Quarter mines, heat from the leyline nexus has hardened ordinary metals into something tougher. Requires patience and divine-forged picks.",
+        "requirements": {
+            "min_level": 4,
+            "mining_skill_level": 4
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 60,
+            "xp_per_kill": 30,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Flame-Hardened Metal",
+                "type": "Ore",
+                "chance": 0.85
+            },
+            {
+                "item": "Ashiron Ore",
+                "type": "Ore",
+                "chance": 0.50
+            },
+            {
+                "item": "Embersteel Flake",
+                "type": "Ore",
+                "chance": 0.15
+            },
+            {
+                "item": "Rough Embertopaz",
+                "type": "Gem",
+                "chance": 0.08
+            }
+        ]
+    },
+    {
+        "task_id": "MINE_004",
+        "node_name": "Orichalcum Seam",
+        "difficulty": "Hard",
+        "description": "A legendary golden-red metal found in the deeper shafts of the Industrial Mines and the upper reaches of the Vault of Seven. Prized by the Forge Academy for relic-crafting.",
+        "requirements": {
+            "min_level": 6,
+            "mining_skill_level": 6
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 90,
+            "xp_per_kill": 50,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Orichalcum Ore",
+                "type": "Ore",
+                "chance": 0.75
+            },
+            {
+                "item": "Flame-Hardened Metal",
+                "type": "Ore",
+                "chance": 0.40
+            },
+            {
+                "item": "Shard Crystal",
+                "type": "Gem",
+                "chance": 0.15
+            },
+            {
+                "item": "Dreamstone Fragment",
+                "type": "Gem",
+                "chance": 0.08
+            }
+        ]
+    },
+    {
+        "task_id": "MINE_005",
+        "node_name": "Memory Ore Core",
+        "difficulty": "Hard",
+        "description": "Found only in the Vault of Seven's Realmetal Caverns. This shimmering, silver-violet ore retains echoes of divine events. Memory Smiths at the Forge Academy pay handsomely for it.",
+        "requirements": {
+            "min_level": 7,
+            "mining_skill_level": 7
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 120,
+            "xp_per_kill": 65,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Memory Ore",
+                "type": "Ore",
+                "chance": 0.70
+            },
+            {
+                "item": "Orichalcum Ore",
+                "type": "Ore",
+                "chance": 0.30
+            },
+            {
+                "item": "Echo Fragment",
+                "type": "Resource",
+                "chance": 0.25
+            },
+            {
+                "item": "Whispering Shard",
+                "type": "Gem",
+                "chance": 0.10
+            }
+        ]
+    },
+    {
+        "task_id": "MINE_006",
+        "node_name": "Voidsteel Deposit",
+        "difficulty": "Very Hard",
+        "description": "Dark, iridescent metal forged by residual shard-energy deep beneath the kingdom. Voidsteel absorbs magical discharge and is essential for elite golem construction and anti-magic armaments.",
+        "requirements": {
+            "min_level": 8,
+            "mining_skill_level": 8
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 150,
+            "xp_per_kill": 80,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Voidsteel Ore",
+                "type": "Ore",
+                "chance": 0.65
+            },
+            {
+                "item": "Shard-Fused Stone",
+                "type": "Resource",
+                "chance": 0.50
+            },
+            {
+                "item": "Null Crystal",
+                "type": "Gem",
+                "chance": 0.12
+            },
+            {
+                "item": "Voidglass Shard",
+                "type": "Gem",
+                "chance": 0.06
+            }
+        ]
+    },
+    {
+        "task_id": "MINE_007",
+        "node_name": "Embersteel Geode",
+        "difficulty": "Very Hard",
+        "description": "Crystalline formations in the walls of the Embersteel Quarter's deepest shafts. These geodes contain concentrated shard-energy gems used in leyline ward construction.",
+        "requirements": {
+            "min_level": 9,
+            "mining_skill_level": 9
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 110,
+            "xp_per_kill": 60,
+            "max_drops_per_kill": 4
+        },
+        "drop_table": [
+            {
+                "item": "Embertopaz",
+                "type": "Gem",
+                "chance": 0.70
+            },
+            {
+                "item": "Flameruby",
+                "type": "Gem",
+                "chance": 0.30
+            },
+            {
+                "item": "Dreamstone",
+                "type": "Gem",
+                "chance": 0.20
+            },
+            {
+                "item": "Prismshard",
+                "type": "Gem",
+                "chance": 0.12
+            },
+            {
+                "item": "Sovereign's Eye",
+                "type": "Gem",
+                "chance": 0.03
+            }
+        ]
+    },
+    {
+        "task_id": "MINE_008",
+        "node_name": "Shrine of Echo Flame",
+        "difficulty": "Legendary",
+        "description": "The deepest sanctum of the Vault of Seven. Only those blessed by Kaelrath can awaken these veins. Yields are tripled here, and every strike echoes with divine memory. The Wyrmtooth relic hums in resonance.",
+        "requirements": {
+            "min_level": 10,
+            "mining_skill_level": 10
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 180,
+            "xp_per_kill": 100,
+            "max_drops_per_kill": 4
+        },
+        "drop_table": [
+            {
+                "item": "Godsteel Ore",
+                "type": "Ore",
+                "chance": 0.60
+            },
+            {
+                "item": "Memory Ore",
+                "type": "Ore",
+                "chance": 0.50
+            },
+            {
+                "item": "Orichalcum Ore",
+                "type": "Ore",
+                "chance": 0.45
+            },
+            {
+                "item": "Sovereign's Eye",
+                "type": "Gem",
+                "chance": 0.15
+            },
+            {
+                "item": "Echo Flame Essence",
+                "type": "Divine",
+                "chance": 0.05
+            }
+        ]
+    }
+]

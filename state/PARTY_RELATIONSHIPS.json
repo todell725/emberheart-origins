@@ -1,0 +1,200 @@
+{
+    "PC-01_Kaelrath": {
+        "wives": {
+            "EH-01_Talmarr": {
+                "relationship": "Bonded Wife (First)",
+                "bond_type": "Divine Shield-Bond",
+                "trust": 100,
+                "romance": 95,
+                "status": "Together at Wyrmwood Manor",
+                "notes": "Elven paladin. Kaelrath's bonded shield and moral anchor. Their bond is forged in divine flame."
+            },
+            "EH-02_Mareth": {
+                "relationship": "Bonded Wife (Second)",
+                "bond_type": "Echo-Reborn Bond",
+                "trust": 95,
+                "romance": 90,
+                "status": "Together at Wyrmwood Manor",
+                "notes": "Wyrm-touched blade master, died and was reborn through echo magic. Trains at the Wyrmflight Spires."
+            },
+            "EH-03_Silvara": {
+                "relationship": "Bonded Wife (Third)",
+                "bond_type": "Diplomatic Bond",
+                "trust": 85,
+                "romance": 80,
+                "status": "Together at Wyrmwood Manor",
+                "notes": "Illusionist and diplomatic herbalist known as Silvy. Acts as Kaelrath's gentle counsel."
+            },
+            "EH-04_Callix": {
+                "relationship": "Bonded Wife (Fourth)",
+                "bond_type": "Fae-Shadow Pact",
+                "trust": 75,
+                "romance": 85,
+                "status": "Together at Wyrmwood Manor",
+                "notes": "Fae-blooded shadow mage and trickster. The wildcard of the family. Loves chaos within safe boundaries."
+            }
+        },
+        "children": {
+            "EH-24_Ashryn": {
+                "relationship": "Daughter",
+                "age": 18,
+                "inheritance_type": "Flame-Touched",
+                "status": "Southern Desert (semi-independent)",
+                "succession_rank": 1,
+                "notes": "Fire dancer. Fierce, graceful. Top succession candidate alongside Kaelen."
+            },
+            "EH-25_Kaelen": {
+                "relationship": "Son",
+                "age": 16,
+                "inheritance_type": "Flame-Touched",
+                "status": "Nearby hamlet (forgehand)",
+                "succession_rank": 2,
+                "notes": "Powerful, stubborn, resembles Kaelrath. Works a forge independently."
+            },
+            "EH-26_Silviea": {
+                "relationship": "Daughter (Adopted into nobility)",
+                "age": 13,
+                "inheritance_type": "Shard-Woven",
+                "status": "Emberheart (noble ward)",
+                "succession_rank": null,
+                "notes": "Illusion prodigy with mood-linked eyes. Watched by both Thalos and Sybelle."
+            },
+            "EH-27_Tharn": {
+                "relationship": "Son",
+                "age": 12,
+                "inheritance_type": "Echo-Bound",
+                "status": "Obsidian Gate District (street thief)",
+                "succession_rank": null,
+                "notes": "Carries Kaelrath's sigil in a broken locket. Doesn't know his full heritage."
+            },
+            "EH-28_Emberyn": {
+                "relationship": "Daughter",
+                "age": 10,
+                "inheritance_type": "Flame-Touched",
+                "status": "Emberheart (ward of the city)",
+                "succession_rank": null,
+                "notes": "Young bard. Sings of stars and fire with no training. Voice carries divine resonance."
+            },
+            "EH-29_Roan": {
+                "relationship": "Son",
+                "age": 8,
+                "inheritance_type": "Dream-Blooded",
+                "status": "Rural village (cursed dreamseer)",
+                "succession_rank": null,
+                "notes": "Prophetic dreams of dragons. Considered cursed by villagers."
+            },
+            "EH-30_Riven": {
+                "relationship": "Son",
+                "age": 7,
+                "inheritance_type": "Shard-Woven",
+                "status": "Unknown (shardborn, silent)",
+                "succession_rank": null,
+                "notes": "Born during a shardstorm. Never speaks. Body burns slightly at all times."
+            },
+            "EH-31_Tahlia": {
+                "relationship": "Daughter",
+                "age": 5,
+                "inheritance_type": "Dream-Blooded",
+                "status": "Hidden among Silvara's kin",
+                "succession_rank": null,
+                "notes": "Birdspeaker with fire-colored hair. Hidden for her protection."
+            },
+            "EH-32_Dawn": {
+                "relationship": "Daughter",
+                "age": 0,
+                "inheritance_type": "Unknown",
+                "status": "Unknown (born after pub-crawl affair)",
+                "succession_rank": null,
+                "notes": "Infant. Yet untouched by divine or vault influence."
+            }
+        },
+        "council": {
+            "EH-05_General_Varka": {
+                "relationship": "Military Commander",
+                "trust": 90,
+                "respect": 95,
+                "loyalty": 100,
+                "notes": "Supreme commander. Absolute military loyalty."
+            },
+            "EH-06_Thalos": {
+                "relationship": "Chief Advisor (Arcane)",
+                "trust": 85,
+                "respect": 90,
+                "loyalty": 85,
+                "notes": "High Enchanter. Golemancer. Runs Prismspire Academy."
+            },
+            "EH-07_Sybelle": {
+                "relationship": "Chief Advisor (Lore)",
+                "trust": 80,
+                "respect": 90,
+                "loyalty": 80,
+                "notes": "Archivist. Lorekeeper of prophecy and forbidden texts. Building succession ritual."
+            },
+            "EH-08_Brennus": {
+                "relationship": "Infrastructure Chief",
+                "trust": 85,
+                "respect": 85,
+                "loyalty": 90,
+                "notes": "Mason. Manages all infrastructure and defense construction."
+            },
+            "EH-09_Brida": {
+                "relationship": "Household Matron",
+                "trust": 95,
+                "respect": 80,
+                "loyalty": 100,
+                "notes": "Matron of Wyrmwood Manor. Manages Kaelrath's estate and family logistics."
+            },
+            "EH-10_Queen_Maeryn": {
+                "relationship": "Royalty",
+                "trust": 70,
+                "respect": 85,
+                "loyalty": 75,
+                "notes": "Emberheart royalty. Politically important but secondary to Kaelrath's divine authority."
+            },
+            "EH-11_Prince_Aereth": {
+                "relationship": "Heir (Political)",
+                "trust": 65,
+                "respect": 70,
+                "loyalty": 70,
+                "notes": "Prince and political heir. Relationship with Kaelrath is formal."
+            }
+        },
+        "noble_houses": {
+            "House_Zevrix": {
+                "head": "Velra Zevrix",
+                "domain": "Finance & Trade",
+                "trust": 75,
+                "loyalty": 80,
+                "status": "Allied — approved market district upgrade"
+            },
+            "House_Maurellien": {
+                "head": "Elder Maurellien",
+                "domain": "Druids & Healing",
+                "trust": 85,
+                "loyalty": 85,
+                "status": "Allied — grove expansion underway"
+            },
+            "House_Caldrith": {
+                "head": "Commander Caldrith",
+                "domain": "Defense & Order",
+                "trust": 90,
+                "loyalty": 95,
+                "status": "Allied — barracks expansion approved"
+            },
+            "House_Theryn": {
+                "head": "Arcanist Theryn",
+                "domain": "Arcane & History",
+                "trust": 80,
+                "loyalty": 80,
+                "status": "Allied — archive digitization in progress"
+            },
+            "House_Veydran": {
+                "head": "Forgemaster Veydran",
+                "domain": "Golemcraft & Industry",
+                "trust": 85,
+                "loyalty": 90,
+                "status": "Allied — Embersteel golem development using Wyrmtooth"
+            }
+        }
+    }
+}

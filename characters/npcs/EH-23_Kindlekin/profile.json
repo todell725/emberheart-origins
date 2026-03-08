@@ -1,0 +1,13 @@
+{
+  "id": "EH-23",
+  "name": "Kindlekin",
+  "race": "Golem",
+  "role": "Prototype Teacher Golem",
+  "title": "Little Teacher",
+  "domains": [
+    "education"
+  ],
+  "avatar_url": "portrait.webp",
+  "bio": "Prototype teacher golem designed for youth instruction. Small, patient, and surprisingly endearing. Children adore it despite its occasional glitches.",
+  "motivation": "Teach the children of Emberheart their letters and numbers without setting anything on fire."
+}

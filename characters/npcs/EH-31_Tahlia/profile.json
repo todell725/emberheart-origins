@@ -1,0 +1,14 @@
+{
+  "id": "EH-31",
+  "name": "Tahlia",
+  "race": "Half-Divine",
+  "role": "Birdspeaker, Child of Kaelrath",
+  "title": "The Little Flame",
+  "domains": [
+    "nature",
+    "fire"
+  ],
+  "avatar_url": "portrait.webp",
+  "bio": "Age 5. Hidden among Silvara's kin. A birdspeaker with fire-colored hair who talks to songbirds and occasionally sets them on fire by accident.",
+  "motivation": "Play with birds without burning them."
+}

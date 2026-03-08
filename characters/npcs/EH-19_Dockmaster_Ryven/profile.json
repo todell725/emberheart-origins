@@ -1,0 +1,14 @@
+{
+  "id": "EH-19",
+  "name": "Dockmaster Ryven",
+  "race": "Human",
+  "role": "Emberlake Port Master",
+  "title": "Dockmaster",
+  "domains": [
+    "trade",
+    "naval"
+  ],
+  "avatar_url": "portrait.webp",
+  "bio": "Master of the Emberlake Port and Docks district. Coordinates water trade, naval supply, and foreign emissary arrivals. Weathered, practical, and suspicious of strangers.",
+  "motivation": "Keep the port running smoothly and ensure every ship pays its dues."
+}

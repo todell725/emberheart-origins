@@ -1,0 +1,20 @@
+{
+  "id": "EH-09",
+  "name": "Elder Maurellien",
+  "race": "Elf",
+  "role": "Head of House Maurellien, Druids & Healing",
+  "title": "Grove Elder",
+  "domains": [
+    "nature",
+    "healing"
+  ],
+  "avatar_url": null,
+  "bio": "Elder of House Maurellien, keepers of the Bloomshade District. Oversees druidic grovekeeping, healing sanctuaries, and the enchanted flora network. Ancient, patient, and deeply connected to the land.",
+  "motivation": "Protect the natural balance of Emberheart's groves and ensure healing is available to all.",
+  "archetype": "Wise Druid",
+  "speech_patterns": [
+    "speaks in organic metaphors",
+    "references seasons and growth cycles",
+    "unhurried and deliberate"
+  ]
+}

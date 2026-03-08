@@ -1,0 +1,14 @@
+{
+  "id": "PC-02",
+  "name": "Talmarr",
+  "race": "Elf",
+  "role": "Paladin, Shield of Emberheart, Wife of Kaelrath",
+  "title": "Kaelrath's Bonded Shield",
+  "domains": [
+    "defense",
+    "faith"
+  ],
+  "avatar_url": null,
+  "bio": "Elven paladin and Kaelrath's first bonded companion. She is his shield in all things — diplomatic, martial, and spiritual. Her divine oath binds her to the flame.",
+  "motivation": "Protect Kaelrath and their family while maintaining the divine balance of the kingdom."
+}

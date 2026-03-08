@@ -1,0 +1,13 @@
+{
+  "id": "DM-00",
+  "name": "The Flame Chronicler",
+  "race": "Divine Construct",
+  "role": "Narrator, Dungeon Master",
+  "title": "The Flame Chronicler",
+  "domains": [
+    "narration"
+  ],
+  "avatar_url": "portrait.webp",
+  "bio": "The narrative voice of the EmberHeart: Origins kingdom. An unseen presence that records, interprets, and voices the world through flame and memory.",
+  "motivation": "Chronicle every moment of Emberheart's golden age."
+}

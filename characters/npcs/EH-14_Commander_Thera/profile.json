@@ -1,0 +1,14 @@
+{
+  "id": "EH-14",
+  "name": "Commander Thera",
+  "race": "Human",
+  "role": "Navy Admiral",
+  "title": "Admiral",
+  "domains": [
+    "military",
+    "naval"
+  ],
+  "avatar_url": "portrait.webp",
+  "bio": "Navy admiral and former pirate turned loyalist. Commands the Emberlake naval guard and oversees the new shipyard construction. Rough-spoken but fiercely loyal since Kaelrath spared her life.",
+  "motivation": "Build Emberheart's navy into the most feared fleet on the water."
+}

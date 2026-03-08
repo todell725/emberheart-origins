@@ -1,0 +1,113 @@
+{
+    "version": "1.0",
+    "settlement": {
+        "name": "Emberheart",
+        "status": "GOLDEN_AGE (ERA OF THE FLAMEKEEPER)",
+        "ruler": "Kaelrath Emberhide, The Flamekeeper, God-Ascendant",
+        "government": "Divine Monarchy with Noble Council",
+        "population": {
+            "total": 24000,
+            "citizens": 20000,
+            "military": 3200,
+            "specialists": 800
+        },
+        "labor_allocation": {
+            "artisan_guilds": 8000,
+            "agriculture_forestry": 5000,
+            "military_guard": 3200,
+            "golem_engineering": 2000,
+            "trade_commerce": 3000,
+            "academy_scholars": 1800,
+            "civic_services": 1000
+        },
+        "production_queue": {
+            "golem_production": {
+                "standard": 8,
+                "elite": 3,
+                "core": 4,
+                "rate": "15 per week"
+            },
+            "naval_expansion": {
+                "status": "Under Construction",
+                "completion": "Ongoing"
+            }
+        },
+        "stockpiles": {
+            "gold": 10200000,
+            "food_months": 20,
+            "ore_units_per_week": 45,
+            "logging_units_per_week": 38,
+            "stone_units_per_week": 35
+        },
+        "core_status": {
+            "morale": 5,
+            "morale_label": "Exalted",
+            "legitimacy": 1000,
+            "tremor_threat": 0,
+            "corruption_index": 0,
+            "weekly_income_gold": 250000,
+            "labor_status": "PROSPEROUS",
+            "electricity_urban": 85,
+            "electricity_rural": 30,
+            "magic_grid": "Leyline-powered (mana cost -18%)"
+        },
+        "calendar": {
+            "season": "The Sowing",
+            "week_index": 1,
+            "day": "The First Day of the Golden Age"
+        },
+        "noble_houses": [
+            "House Zevrix (Trade & Finance)",
+            "House Maurellien (Druids & Healing)",
+            "House Caldrith (Defense & Order)",
+            "House Theryn (Arcane & History)",
+            "House Veydran (Golemcraft & Industry)"
+        ],
+        "active_buffs": [
+            "Divine Flame Blessing (Kingdom-wide morale +25%)",
+            "Leyline Nexus (Mana cost -18%)",
+            "Vault of Seven (Triple-yield divine mining)",
+            "Wyrmtooth Resonance (75% resource multiplication)",
+            "Exalted Morale (Productivity +15%)"
+        ],
+        "districts": [
+            "Citadel Core",
+            "Stoneheart Ring",
+            "Bloomshade District",
+            "Embersteel Quarter",
+            "Iron March",
+            "Crystal Archive Ward",
+            "Obsidian Gate District",
+            "Wyrmshadow Commons",
+            "Prismspire Heights",
+            "Vault of Seven",
+            "Outer Grove Districts",
+            "Emberfields (Agricultural Belt)",
+            "Emberlake Port and Docks",
+            "Wyrmflight Spires",
+            "Forge Academy Complex"
+        ],
+        "military": {
+            "total": 3200,
+            "infantry": 1200,
+            "cavalry": 600,
+            "wyrmwing_flyers": 300,
+            "golem_forces": 500,
+            "naval_guard": 300,
+            "reserve": 300
+        },
+        "trade_routes": [
+            "Flameway Northroad (Ore, metals, scholars)",
+            "Silkspire Trail (Fae-Craft, dreamglass, spices)",
+            "Verdant Cross (Logging, alchemy, druid lands)",
+            "Emberlake Waterway (Naval supply, foreign trade)",
+            "Ashwake Caravan Spine (Fortified overland route)"
+        ],
+        "pending_proposals": [
+            "Artisan Quarter revitalization (Prismspire apprentices)",
+            "Flame Remembers festival community square",
+            "Floating shard-garden above aqueduct ruins",
+            "Prophecy archive beneath the Citadel (Sybelle)"
+        ]
+    }
+}

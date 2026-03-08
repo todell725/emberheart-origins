@@ -1,0 +1,15 @@
+{
+  "id": "PC-05",
+  "name": "Callix",
+  "level": 10,
+  "xp": 0,
+  "status": {
+    "hp": 100,
+    "max_hp": 100,
+    "location": "Citadel Core",
+    "mood": "Content",
+    "equipped": {},
+    "inventory": []
+  },
+  "skills": {}
+}

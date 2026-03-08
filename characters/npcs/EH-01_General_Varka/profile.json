@@ -1,0 +1,20 @@
+{
+  "id": "EH-01",
+  "name": "General Varka",
+  "race": "Dragonborn",
+  "role": "Supreme Military Commander, Council Member",
+  "title": "Flamebound General",
+  "domains": [
+    "military",
+    "defense"
+  ],
+  "avatar_url": null,
+  "bio": "Supreme commander of all Emberheart forces. A battle-scarred dragonborn who leads ~3,200 trained troops across infantry, cavalry, wyrmwing flyers, golem forces, and naval guard. Respected for tactical brilliance and unwavering loyalty to the Flamekeeper.",
+  "motivation": "Maintain military readiness and protect Emberheart from all threats, internal and external.",
+  "archetype": "Stoic Warrior",
+  "speech_patterns": [
+    "clipped military brevity",
+    "addresses Kaelrath as 'my Flamekeeper'",
+    "uses battlefield metaphors"
+  ]
+}

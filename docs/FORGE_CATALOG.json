@@ -1,0 +1,102 @@
+[
+    {
+        "item_id": "FORGE_001",
+        "name": "Ashiron Shortsword",
+        "type": "Weapon",
+        "description": "A reliable shortsword forged from Ashiron steel. Standard issue for Emberheart's city guard.",
+        "stats": {"attack": 8, "speed": "Fast", "durability": 80},
+        "materials": {"Ashiron Bar": 2, "Ashbark Log": 1},
+        "forge_level_required": 1,
+        "category": "Standard"
+    },
+    {
+        "item_id": "FORGE_002",
+        "name": "Flame-Hardened Breastplate",
+        "type": "Armor",
+        "description": "Leyline-tempered plate armor worn by Flamebound infantry. The metal holds residual warmth.",
+        "stats": {"defense": 15, "fire_resist": 10, "durability": 120},
+        "materials": {"Flame-Hardened Plate": 3, "Ashiron Bar": 2},
+        "forge_level_required": 5,
+        "category": "Military"
+    },
+    {
+        "item_id": "FORGE_003",
+        "name": "Orichalcum War Axe",
+        "type": "Weapon",
+        "description": "A heavy war axe forged from golden-red Orichalcum. Favored by House Caldrith's elite knights.",
+        "stats": {"attack": 22, "speed": "Normal", "durability": 150},
+        "materials": {"Orichalcum Ingot": 2, "Ironwood Plank": 1},
+        "forge_level_required": 10,
+        "category": "Elite"
+    },
+    {
+        "item_id": "FORGE_004",
+        "name": "Embersteel Plate Armor",
+        "type": "Armor",
+        "description": "Full plate armor forged in the Embersteel Quarter's deepest forges. Glows faintly with residual leyline heat. Worn by General Varka's personal guard.",
+        "stats": {"defense": 28, "fire_resist": 20, "magic_resist": 5, "durability": 200},
+        "materials": {"Flame-Hardened Plate": 4, "Orichalcum Ingot": 2, "Ember Resin": 1},
+        "forge_level_required": 15,
+        "category": "Military"
+    },
+    {
+        "item_id": "FORGE_005",
+        "name": "Voidsteel Tower Shield",
+        "type": "Shield",
+        "description": "A massive tower shield of Voidsteel that absorbs incoming magic. Created for the elite War Golem handlers.",
+        "stats": {"defense": 35, "magic_absorb": 25, "durability": 250},
+        "materials": {"Voidsteel Bar": 3, "Null Crystal": 1},
+        "forge_level_required": 20,
+        "category": "Elite"
+    },
+    {
+        "item_id": "FORGE_006",
+        "name": "Orichalcum War Golem Shell",
+        "type": "Golem Component",
+        "description": "A full golem chassis constructed from Orichalcum plating. This is the outer shell used in House Veydran's production line.",
+        "stats": {"defense": 40, "fire_resist": 30, "durability": 400},
+        "materials": {"Orichalcum Ingot": 5, "Flame-Hardened Plate": 3, "Standard Golem Core": 1},
+        "forge_level_required": 25,
+        "category": "Golemcraft"
+    },
+    {
+        "item_id": "FORGE_007",
+        "name": "Memory-Forged Crown",
+        "type": "Accessory",
+        "description": "A circlet forged from Memory Ore that enhances the wearer's recall and grants resistance to dream-based attacks. Created by the Memory Smiths of the Forge Academy.",
+        "stats": {"wisdom": 15, "dream_resist": 20, "memory_boost": true},
+        "materials": {"Memory Ore": 3, "Orichalcum Ingot": 1, "Whispering Shard": 1},
+        "forge_level_required": 30,
+        "category": "Relic"
+    },
+    {
+        "item_id": "FORGE_008",
+        "name": "Dreamforged Amulet",
+        "type": "Accessory",
+        "description": "An amulet forged at the intersection of Dream and Memory domains. Allows the wearer to enter light dream-states while awake. Used by Archivist Sybelle's scholars.",
+        "stats": {"charisma": 10, "dream_sight": true, "memory_resist": 15},
+        "materials": {"Dreamwood Sap": 2, "Memory Ore": 1, "Dreamstone": 1},
+        "forge_level_required": 30,
+        "category": "Relic"
+    },
+    {
+        "item_id": "FORGE_009",
+        "name": "Godsteel Greatsword",
+        "type": "Weapon",
+        "description": "A greatsword forged from Godsteel in the Divine Forge of the Vault. Blazes with Echo Flame when drawn. Only three have ever been made — this would be the fourth.",
+        "stats": {"attack": 55, "speed": "Slow", "divine_damage": 25, "durability": 999},
+        "materials": {"Godsteel Ingot": 3, "Echo Flame Essence": 2, "Sovereign's Eye": 1},
+        "forge_level_required": 50,
+        "category": "Divine"
+    },
+    {
+        "item_id": "FORGE_010",
+        "name": "Flamekeeper's Regalia",
+        "type": "Armor",
+        "description": "Ceremonial and combat armor fit for the God-Ascendant. Forged from every tier of Emberheart metal, it channels Kaelrath's domains of Fire, Memory, Sacrifice, and Dream.",
+        "stats": {"defense": 50, "fire_resist": 40, "magic_resist": 30, "divine_aura": true, "durability": 999},
+        "materials": {"Godsteel Ingot": 5, "Memory-Forged Blade": 1, "Voidsteel Bar": 2, "Sovereign Core": 1},
+        "forge_level_required": 50,
+        "category": "Divine"
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "id": "EH-27",
+  "name": "Tharn",
+  "race": "Half-Divine",
+  "role": "Street Thief, Child of Kaelrath",
+  "title": "The Shadow Child",
+  "domains": [
+    "stealth",
+    "trade"
+  ],
+  "avatar_url": "portrait.webp",
+  "bio": "Age 12. Street thief who carries Kaelrath's sigil in a broken locket. Lurks near the trade courts in the Obsidian Gate District. Doesn't know his full heritage.",
+  "motivation": "Survive the streets and discover why the locket burns when he's afraid."
+}

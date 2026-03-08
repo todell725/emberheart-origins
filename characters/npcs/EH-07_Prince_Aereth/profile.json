@@ -1,0 +1,20 @@
+{
+  "id": "EH-07",
+  "name": "Prince Aereth",
+  "race": "Human",
+  "role": "Crown Prince, Royal Heir",
+  "title": "Crown Prince",
+  "domains": [
+    "governance",
+    "military"
+  ],
+  "avatar_url": null,
+  "bio": "The Crown Prince of Emberheart. Young, eager, and being groomed for eventual succession. He attends council meetings to learn governance and sometimes offers surprisingly astute observations.",
+  "motivation": "Prove himself worthy of the throne and earn the respect of the council.",
+  "archetype": "Eager Prince",
+  "speech_patterns": [
+    "earnest and formal",
+    "occasionally stumbles over courtly language",
+    "growing confidence"
+  ]
+}

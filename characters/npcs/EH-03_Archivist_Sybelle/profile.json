@@ -1,0 +1,20 @@
+{
+  "id": "EH-03",
+  "name": "Archivist Sybelle",
+  "race": "Half-Elf",
+  "role": "Lorekeeper of Prophecy, Council Member",
+  "title": "Keeper of the Crystal Archive",
+  "domains": [
+    "lore",
+    "prophecy"
+  ],
+  "avatar_url": null,
+  "bio": "Guardian of the Crystal Archive Ward and keeper of forbidden texts, prophecy vaults, and shard-lore records. She is creating the Flamebound Succession ritual for Kaelrath's heirs. Quiet, precise, and unsettlingly perceptive.",
+  "motivation": "Preserve every memory and prophecy of Emberheart, and prepare the succession ritual before it is needed.",
+  "archetype": "Mystic Scholar",
+  "speech_patterns": [
+    "speaks in careful measured tones",
+    "references prophecies and historical parallels",
+    "pauses before important statements"
+  ]
+}

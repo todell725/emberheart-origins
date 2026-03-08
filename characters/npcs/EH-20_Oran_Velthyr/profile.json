@@ -1,0 +1,14 @@
+{
+  "id": "EH-20",
+  "name": "Oran Velthyr",
+  "race": "Human",
+  "role": "Customs Guild Master, Obsidian Gate",
+  "title": "Guildmaster",
+  "domains": [
+    "trade",
+    "law"
+  ],
+  "avatar_url": "portrait.webp",
+  "bio": "Head of the Customs Guild in the Obsidian Gate District. Works alongside House Zevrix to enforce trade law and magical tariffs. Meticulous about paperwork and suspicious of shard-energy imports.",
+  "motivation": "Enforce fair trade law and keep illegal magical goods out of Emberheart."
+}

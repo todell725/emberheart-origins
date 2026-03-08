@@ -1,0 +1,261 @@
+[
+    {
+        "task_id": "WOOD_001",
+        "node_name": "Firesapling Grove",
+        "difficulty": "Very Easy",
+        "description": "Young flame-resistant saplings growing at the edges of the Outer Grove Districts. Their bark smolders faintly when cut, but the wood is soft and easy to work.",
+        "requirements": {
+            "min_level": 1,
+            "woodcutting_skill_level": 1
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 20,
+            "xp_per_kill": 8,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Firesapling Log",
+                "type": "Wood",
+                "chance": 0.95
+            },
+            {
+                "item": "Kindling",
+                "type": "Resource",
+                "chance": 0.70
+            },
+            {
+                "item": "Sap Resin",
+                "type": "Crafting",
+                "chance": 0.20
+            }
+        ]
+    },
+    {
+        "task_id": "WOOD_002",
+        "node_name": "Ashbark Stand",
+        "difficulty": "Easy",
+        "description": "Sturdy grey-barked trees found throughout the Outer Groves. Ashbark is the standard construction timber for Emberheart — fire-resistant and load-bearing.",
+        "requirements": {
+            "min_level": 2,
+            "woodcutting_skill_level": 2
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 40,
+            "xp_per_kill": 18,
+            "max_drops_per_kill": 2
+        },
+        "drop_table": [
+            {
+                "item": "Ashbark Log",
+                "type": "Wood",
+                "chance": 0.90
+            },
+            {
+                "item": "Ashbark Bark",
+                "type": "Crafting",
+                "chance": 0.50
+            },
+            {
+                "item": "Bird's Nest",
+                "type": "Resource",
+                "chance": 0.15
+            },
+            {
+                "item": "Rough Amber",
+                "type": "Gem",
+                "chance": 0.05
+            }
+        ]
+    },
+    {
+        "task_id": "WOOD_003",
+        "node_name": "Flamewood Copse",
+        "difficulty": "Medium",
+        "description": "Flamewood trees grow where the leyline warmth reaches the surface. Their heartwood glows faintly orange and never truly extinguishes. Used in Forge Academy furnace construction.",
+        "requirements": {
+            "min_level": 4,
+            "woodcutting_skill_level": 4
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 60,
+            "xp_per_kill": 30,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Flamewood Log",
+                "type": "Wood",
+                "chance": 0.85
+            },
+            {
+                "item": "Flamewood Heartwood",
+                "type": "Crafting",
+                "chance": 0.30
+            },
+            {
+                "item": "Ember Resin",
+                "type": "Resource",
+                "chance": 0.25
+            },
+            {
+                "item": "Ember Amber",
+                "type": "Gem",
+                "chance": 0.08
+            }
+        ]
+    },
+    {
+        "task_id": "WOOD_004",
+        "node_name": "Dreamwood Thicket",
+        "difficulty": "Hard",
+        "description": "Dreamgrown timber from the deepest Enchanted Groves of House Maurellien. These trees shift slightly out of phase with reality. Cutting one requires focus — axes sometimes pass through the trunk.",
+        "requirements": {
+            "min_level": 6,
+            "woodcutting_skill_level": 6
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 90,
+            "xp_per_kill": 50,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Dreamwood Log",
+                "type": "Wood",
+                "chance": 0.75
+            },
+            {
+                "item": "Dreamwood Sap",
+                "type": "Alchemy",
+                "chance": 0.40
+            },
+            {
+                "item": "Fae Moss",
+                "type": "Crafting",
+                "chance": 0.30
+            },
+            {
+                "item": "Phase Fragment",
+                "type": "Gem",
+                "chance": 0.10
+            }
+        ]
+    },
+    {
+        "task_id": "WOOD_005",
+        "node_name": "Shard-Barked Ancient",
+        "difficulty": "Very Hard",
+        "description": "Ancient trees whose bark has crystallized with shard-energy over centuries. Found in protected reserves near the Vault of Seven perimeter. The wood sings when struck.",
+        "requirements": {
+            "min_level": 8,
+            "woodcutting_skill_level": 8
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 120,
+            "xp_per_kill": 70,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Shard-Barked Log",
+                "type": "Wood",
+                "chance": 0.70
+            },
+            {
+                "item": "Shard Bark",
+                "type": "Crafting",
+                "chance": 0.45
+            },
+            {
+                "item": "Resonance Sap",
+                "type": "Alchemy",
+                "chance": 0.25
+            },
+            {
+                "item": "Memory Amber",
+                "type": "Gem",
+                "chance": 0.10
+            }
+        ]
+    },
+    {
+        "task_id": "WOOD_006",
+        "node_name": "Flame-Hardened Ironwood",
+        "difficulty": "Very Hard",
+        "description": "Dense ironwood trees tempered by divine flame near the Wyrmflight Spires. These massive trunks are nearly impervious — used for warship hulls and siege engine construction.",
+        "requirements": {
+            "min_level": 9,
+            "woodcutting_skill_level": 9
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 140,
+            "xp_per_kill": 80,
+            "max_drops_per_kill": 3
+        },
+        "drop_table": [
+            {
+                "item": "Ironwood Plank",
+                "type": "Wood",
+                "chance": 0.70
+            },
+            {
+                "item": "Ironwood Shaving",
+                "type": "Resource",
+                "chance": 0.50
+            },
+            {
+                "item": "Flame-Tempered Resin",
+                "type": "Crafting",
+                "chance": 0.20
+            },
+            {
+                "item": "Wyrm Beetle (Preserved)",
+                "type": "Trophy",
+                "chance": 0.08
+            }
+        ]
+    },
+    {
+        "task_id": "WOOD_007",
+        "node_name": "Sentient Tree (Druidic Pact)",
+        "difficulty": "Legendary",
+        "description": "Dormant sentient flora deep within House Maurellien's protected groves. These trees communicate through root networks and only yield their wood willingly. Cutting without permission awakens the grove.",
+        "requirements": {
+            "min_level": 10,
+            "woodcutting_skill_level": 10
+        },
+        "idle_mechanics": {
+            "time_to_kill_sec": 180,
+            "xp_per_kill": 100,
+            "max_drops_per_kill": 4
+        },
+        "drop_table": [
+            {
+                "item": "Living Wood",
+                "type": "Wood",
+                "chance": 0.60
+            },
+            {
+                "item": "Dreamwood Log",
+                "type": "Wood",
+                "chance": 0.50
+            },
+            {
+                "item": "Sentient Sap",
+                "type": "Divine",
+                "chance": 0.20
+            },
+            {
+                "item": "Grove Heart Crystal",
+                "type": "Gem",
+                "chance": 0.10
+            },
+            {
+                "item": "Blessing of Maurellien",
+                "type": "Divine",
+                "chance": 0.03
+            }
+        ]
+    }
+]
