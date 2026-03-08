@@ -1,14 +1,14 @@
 {
-  "id": "EH-15",
-  "name": "Forge-Sergeant Halvek",
-  "race": "Dwarf",
-  "role": "Golem Weaponry Overseer",
-  "title": "Forge-Sergeant",
-  "domains": [
-    "military",
-    "golemcraft"
-  ],
-  "avatar_url": "portrait.webp",
-  "bio": "Oversees all golem weaponry and military golem deployment. Works at the intersection of House Veydran's industry and General Varka's military needs. Meticulous and grumpy.",
-  "motivation": "Ensure every war golem is battle-ready and properly maintained."
+    "id": "EH-15",
+    "name": "Forge-Sergeant Halvek",
+    "race": "Dwarf",
+    "role": "Golem Weaponry Overseer",
+    "title": "Forge-Sergeant",
+    "domains": [
+        "military",
+        "golemcraft"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-15_Forge-Sergeant_Halvek/portrait.webp",
+    "bio": "Oversees all golem weaponry and military golem deployment. Works at the intersection of House Veydran's industry and General Varka's military needs. Meticulous and grumpy.",
+    "motivation": "Ensure every war golem is battle-ready and properly maintained."
 }

@@ -1,14 +1,14 @@
 {
-  "id": "EH-26",
-  "name": "Silviea",
-  "race": "Half-Divine",
-  "role": "Illusion Prodigy, Child of Kaelrath",
-  "title": "The Mirror Child",
-  "domains": [
-    "arcane",
-    "illusion"
-  ],
-  "avatar_url": "portrait.webp",
-  "bio": "Age 13. Adopted into nobility with mood-linked eyes that change color with her emotions. An illusion prodigy being watched by both Thalos and Sybelle.",
-  "motivation": "Control her powers and find a place where her gifts are celebrated, not feared."
+    "id": "EH-26",
+    "name": "Silviea",
+    "race": "Half-Divine",
+    "role": "Illusion Prodigy, Child of Kaelrath",
+    "title": "The Mirror Child",
+    "domains": [
+        "arcane",
+        "illusion"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-26_Silviea/portrait.webp",
+    "bio": "Age 13. Adopted into nobility with mood-linked eyes that change color with her emotions. An illusion prodigy being watched by both Thalos and Sybelle.",
+    "motivation": "Control her powers and find a place where her gifts are celebrated, not feared."
 }

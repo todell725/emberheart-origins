@@ -1,14 +1,14 @@
 {
-  "id": "EH-24",
-  "name": "Ashryn",
-  "race": "Half-Divine",
-  "role": "Fire Dancer, Eldest Child of Kaelrath",
-  "title": "The Fire Dancer",
-  "domains": [
-    "fire",
-    "combat"
-  ],
-  "avatar_url": "portrait.webp",
-  "bio": "Age 18. Fire dancer raised in the southern desert. Fierce, graceful, and rumored to channel living sparks. One of the strongest candidates for succession alongside Kaelen.",
-  "motivation": "Prove herself worthy of the flame on her own terms, not just as her father's daughter."
+    "id": "EH-24",
+    "name": "Ashryn",
+    "race": "Half-Divine",
+    "role": "Fire Dancer, Eldest Child of Kaelrath",
+    "title": "The Fire Dancer",
+    "domains": [
+        "fire",
+        "combat"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-24_Ashryn/portrait.webp",
+    "bio": "Age 18. Fire dancer raised in the southern desert. Fierce, graceful, and rumored to channel living sparks. One of the strongest candidates for succession alongside Kaelen.",
+    "motivation": "Prove herself worthy of the flame on her own terms, not just as her father's daughter."
 }

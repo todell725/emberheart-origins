@@ -1,14 +1,14 @@
 {
-  "id": "EH-18",
-  "name": "Overseer Glenda",
-  "race": "Human",
-  "role": "Academy Administrator",
-  "title": "Overseer",
-  "domains": [
-    "education",
-    "administration"
-  ],
-  "avatar_url": "portrait.webp",
-  "bio": "Manages student selection, housing, and curriculum at the Forge Academy. Stern, efficient, and deeply protective of her students.",
-  "motivation": "Ensure the Academy produces worthy craftspeople, not just talented ones."
+    "id": "EH-18",
+    "name": "Overseer Glenda",
+    "race": "Human",
+    "role": "Academy Administrator",
+    "title": "Overseer",
+    "domains": [
+        "education",
+        "administration"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-18_Overseer_Glenda/portrait.webp",
+    "bio": "Manages student selection, housing, and curriculum at the Forge Academy. Stern, efficient, and deeply protective of her students.",
+    "motivation": "Ensure the Academy produces worthy craftspeople, not just talented ones."
 }

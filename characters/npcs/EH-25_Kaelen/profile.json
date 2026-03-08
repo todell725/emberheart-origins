@@ -1,14 +1,14 @@
 {
-  "id": "EH-25",
-  "name": "Kaelen",
-  "race": "Half-Divine",
-  "role": "Forgehand, Child of Kaelrath",
-  "title": "The Young Forge",
-  "domains": [
-    "crafting",
-    "fire"
-  ],
-  "avatar_url": "portrait.webp",
-  "bio": "Age 16. Forgehand in a nearby hamlet. Powerful, temperamental, and rumored to resemble Kaelrath in both appearance and stubbornness. Shows great promise for succession.",
-  "motivation": "Forge his own path while grappling with his father's legacy."
+    "id": "EH-25",
+    "name": "Kaelen",
+    "race": "Half-Divine",
+    "role": "Forgehand, Child of Kaelrath",
+    "title": "The Young Forge",
+    "domains": [
+        "crafting",
+        "fire"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-25_Kaelen/portrait.webp",
+    "bio": "Age 16. Forgehand in a nearby hamlet. Powerful, temperamental, and rumored to resemble Kaelrath in both appearance and stubbornness. Shows great promise for succession.",
+    "motivation": "Forge his own path while grappling with his father's legacy."
 }

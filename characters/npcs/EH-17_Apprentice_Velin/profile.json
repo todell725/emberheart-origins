@@ -1,14 +1,14 @@
 {
-  "id": "EH-17",
-  "name": "Apprentice Velin",
-  "race": "Human",
-  "role": "Memory Smith Prodigy, Forge Academy",
-  "title": "Young Prodigy",
-  "domains": [
-    "crafting",
-    "memory"
-  ],
-  "avatar_url": "portrait.webp",
-  "bio": "Young prodigy bonded to memory ore. She can shape enchantments by emotion alone — a rare gift that has drawn attention from both the Forge Academy and the Crystal Archive.",
-  "motivation": "Master memory smithing and create a relic worthy of the Flamekeeper's notice."
+    "id": "EH-17",
+    "name": "Apprentice Velin",
+    "race": "Human",
+    "role": "Memory Smith Prodigy, Forge Academy",
+    "title": "Young Prodigy",
+    "domains": [
+        "crafting",
+        "memory"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-17_Apprentice_Velin/portrait.webp",
+    "bio": "Young prodigy bonded to memory ore. She can shape enchantments by emotion alone \u2014 a rare gift that has drawn attention from both the Forge Academy and the Crystal Archive.",
+    "motivation": "Master memory smithing and create a relic worthy of the Flamekeeper's notice."
 }

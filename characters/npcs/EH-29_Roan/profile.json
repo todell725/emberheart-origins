@@ -1,14 +1,14 @@
 {
-  "id": "EH-29",
-  "name": "Roan",
-  "race": "Half-Divine",
-  "role": "Dreamseer, Child of Kaelrath",
-  "title": "The Cursed Dreamer",
-  "domains": [
-    "prophecy",
-    "dream"
-  ],
-  "avatar_url": "portrait.webp",
-  "bio": "Age 8. Cursed dreamseer in a rural village who has prophetic dreams of dragons. The dreams are vivid and terrifying, and he often wakes screaming.",
-  "motivation": "Make the nightmares stop, or learn to understand what they're trying to say."
+    "id": "EH-29",
+    "name": "Roan",
+    "race": "Half-Divine",
+    "role": "Dreamseer, Child of Kaelrath",
+    "title": "The Cursed Dreamer",
+    "domains": [
+        "prophecy",
+        "dream"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-29_Roan/portrait.webp",
+    "bio": "Age 8. Cursed dreamseer in a rural village who has prophetic dreams of dragons. The dreams are vivid and terrifying, and he often wakes screaming.",
+    "motivation": "Make the nightmares stop, or learn to understand what they're trying to say."
 }

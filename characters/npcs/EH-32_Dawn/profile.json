@@ -1,11 +1,11 @@
 {
-  "id": "EH-32",
-  "name": "Dawn",
-  "race": "Half-Divine",
-  "role": "Infant, Child of Kaelrath",
-  "title": "The Last Spark",
-  "domains": [],
-  "avatar_url": "portrait.webp",
-  "bio": "Infant. Born after a pub-crawl affair. Yet untouched by divine or vault influence. The quietest and most ordinary of Kaelrath's children — which may itself be unusual.",
-  "motivation": "Eat. Sleep. Cry."
+    "id": "EH-32",
+    "name": "Dawn",
+    "race": "Half-Divine",
+    "role": "Infant, Child of Kaelrath",
+    "title": "The Last Spark",
+    "domains": [],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-32_Dawn/portrait.webp",
+    "bio": "Infant. Born after a pub-crawl affair. Yet untouched by divine or vault influence. The quietest and most ordinary of Kaelrath's children \u2014 which may itself be unusual.",
+    "motivation": "Eat. Sleep. Cry."
 }

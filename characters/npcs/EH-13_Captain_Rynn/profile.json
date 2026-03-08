@@ -1,14 +1,14 @@
 {
-  "id": "EH-13",
-  "name": "Captain Rynn",
-  "race": "Human",
-  "role": "Wyrmwing Commander",
-  "title": "Sky Captain",
-  "domains": [
-    "military",
-    "wyrms"
-  ],
-  "avatar_url": "portrait.webp",
-  "bio": "Commander of the Wyrmwing aerial division. Bonded to one of Embercoil's kin. She leads 300 aerial units on patrol and combat missions from the Wyrmflight Spires.",
-  "motivation": "Master the skies above Emberheart and train elite aerial defenders."
+    "id": "EH-13",
+    "name": "Captain Rynn",
+    "race": "Human",
+    "role": "Wyrmwing Commander",
+    "title": "Sky Captain",
+    "domains": [
+        "military",
+        "wyrms"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-13_Captain_Rynn/portrait.webp",
+    "bio": "Commander of the Wyrmwing aerial division. Bonded to one of Embercoil's kin. She leads 300 aerial units on patrol and combat missions from the Wyrmflight Spires.",
+    "motivation": "Master the skies above Emberheart and train elite aerial defenders."
 }

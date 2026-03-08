@@ -1,14 +1,14 @@
 {
-  "id": "EH-30",
-  "name": "Riven",
-  "race": "Half-Divine",
-  "role": "Shardborn Child of Kaelrath",
-  "title": "The Burning Child",
-  "domains": [
-    "fire",
-    "sacrifice"
-  ],
-  "avatar_url": "portrait.webp",
-  "bio": "Age 7. Born during a shardstorm. Never speaks. His body burns slightly at all times — a gentle heat that warms anyone nearby. The most divine-touched of Kaelrath's children and the most mysterious.",
-  "motivation": "Unknown. He does not speak."
+    "id": "EH-30",
+    "name": "Riven",
+    "race": "Half-Divine",
+    "role": "Shardborn Child of Kaelrath",
+    "title": "The Burning Child",
+    "domains": [
+        "fire",
+        "sacrifice"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-30_Riven/portrait.webp",
+    "bio": "Age 7. Born during a shardstorm. Never speaks. His body burns slightly at all times \u2014 a gentle heat that warms anyone nearby. The most divine-touched of Kaelrath's children and the most mysterious.",
+    "motivation": "Unknown. He does not speak."
 }

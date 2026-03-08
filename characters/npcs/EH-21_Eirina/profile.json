@@ -1,14 +1,14 @@
 {
-  "id": "EH-21",
-  "name": "Eirina",
-  "race": "Elf",
-  "role": "Druid Healer, Bloomshade District",
-  "title": "Bloom Tender",
-  "domains": [
-    "healing",
-    "nature"
-  ],
-  "avatar_url": "portrait.webp",
-  "bio": "A gifted druid healer in the Bloomshade District, working under House Maurellien. She tends the Blooming Sanctuary and the enchanted flora network. Gentle, intuitive, and deeply empathetic.",
-  "motivation": "Heal those who suffer and nurture the enchanted groves of Emberheart."
+    "id": "EH-21",
+    "name": "Eirina",
+    "race": "Elf",
+    "role": "Druid Healer, Bloomshade District",
+    "title": "Bloom Tender",
+    "domains": [
+        "healing",
+        "nature"
+    ],
+    "avatar_url": "https://raw.githubusercontent.com/todell725/emberheart-origins/main/characters/npcs/EH-21_Eirina/portrait.webp",
+    "bio": "A gifted druid healer in the Bloomshade District, working under House Maurellien. She tends the Blooming Sanctuary and the enchanted flora network. Gentle, intuitive, and deeply empathetic.",
+    "motivation": "Heal those who suffer and nurture the enchanted groves of Emberheart."
 }
