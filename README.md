@@ -2,7 +2,7 @@
 
 EmberHeart: Origins is a Discord-based RPG and kingdom-management simulation. It puts the players in the role of **Kaelrath Emberhide**, a God-Ascendant ruling a golden-age fantasy kingdom alongside his council, his wives, and his nine children.
 
-This project is a standalone fork of the original `Claudes-EmberHeart` architecture, fundamentally re-themed from a dark, visceral underground survival game into a high-fantasy golden-age governance simulation. 
+This project is a standalone fork of the original `EmberHeartReborn` architecture, fundamentally re-themed from a dark, visceral underground survival game into a high-fantasy golden-age governance simulation. 
 
 ## Key Features
 
@@ -11,11 +11,11 @@ This project is a standalone fork of the original `Claudes-EmberHeart` architect
 - **Dynamic Events & Rumors:** An LLM-driven event generator and rumor engine that creates living, breathing politics, trade disputes, festival preparations, and family drama.
 - **Data-Driven Architecture:** All lore, NPCs, quests, and idle progression elements are controlled by simple JSON files in the `docs/` and `characters/` directories.
 
-## Difference from Claudes-EmberHeart
+## Difference from EmberHeart-Reborn
 
-While this project shares a Python/Discord architecture with `Claudes-EmberHeart`, they are entirely separate games:
+While this project shares a Python/Discord architecture with `EmberHeartReborn`, they are entirely separate games:
 
-| Feature | Claudes-EmberHeart | EmberHeart: Origins |
+| Feature | EmberHeart-Reborn | EmberHeart: Origins |
 |---------|--------------------|---------------------|
 | **Theme** | Underground survival, horror, Scourge | Golden-age kingdom, divine magic, prosperity |
 | **Main Channel** | Party Chat | Council Chambers |
